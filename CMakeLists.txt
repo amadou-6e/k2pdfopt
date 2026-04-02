@@ -80,13 +80,16 @@ endif(GHOSTSCRIPT_EXECUTABLE)
 
 pkg_check_modules(MUPDF mupdf)
 if(MUPDF_FOUND)
-  set(HAVE_MUPDF_LIB 1) 
-  # (includes jbig2dec, openjpeg, freetype)
+  set(HAVE_MUPDF_LIB 1)
+  # Dependencies bundled in mupdf.pc Libs (mupdf >= 1.18)
   include_directories(SYSTEM ${MUPDF_INCLUDEDIR})
   message(STATUS "mupdf libraries: ${MUPDF_LDFLAGS}")
-  set(K2PDFOPT_LIB ${K2PDFOPT_LIB} ${MUPDF_LDFLAGS} 
-    -lmupdf-js-none -lopenjpeg -ljbig2dec -ljpeg -lfreetype -llcms -lgumbo
-  )
+  set(K2PDFOPT_LIB ${K2PDFOPT_LIB} ${MUPDF_LDFLAGS})
+  pkg_check_modules(HARFBUZZ harfbuzz)
+  if(HARFBUZZ_FOUND)
+    include_directories(SYSTEM ${HARFBUZZ_INCLUDEDIR})
+    set(K2PDFOPT_LIB ${K2PDFOPT_LIB} ${HARFBUZZ_LDFLAGS})
+  endif(HARFBUZZ_FOUND)
 endif(MUPDF_FOUND)
 
 pkg_check_modules(DJVU ddjvuapi)

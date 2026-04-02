@@ -1,0 +1,9 @@
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/CMakeFiles/k2pdfopt.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/CMakeFiles/edit_cache.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/CMakeFiles/rebuild_cache.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/willuslib/CMakeFiles/willuslib.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/willuslib/CMakeFiles/edit_cache.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/willuslib/CMakeFiles/rebuild_cache.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/k2pdfoptlib/CMakeFiles/edit_cache.dir
+C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/k2pdfoptlib/CMakeFiles/rebuild_cache.dir

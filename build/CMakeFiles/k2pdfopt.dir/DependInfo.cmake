@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfopt.c" "CMakeFiles/k2pdfopt.dir/k2pdfopt.c.obj" "gcc" "CMakeFiles/k2pdfopt.dir/k2pdfopt.c.obj.d"
+  "C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfopt.c" "CMakeFiles/k2pdfopt.dir/k2pdfopt.c.obj" "gcc" "CMakeFiles/k2pdfopt.dir/k2pdfopt.c.obj.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

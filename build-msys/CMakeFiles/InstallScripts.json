@@ -1,0 +1,9 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/cmake_install.cmake",
+		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/willuslib/cmake_install.cmake",
+		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build-msys/k2pdfoptlib/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

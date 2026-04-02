@@ -25,7 +25,10 @@
 
 #ifdef HAVE_MUPDF_LIB
 #include <mupdf/pdf.h>
-void pdf_install_load_system_font_funcs(fz_context *ctx);
+/* See wmupdf.c for rationale. */
+#ifndef pdf_install_load_system_font_funcs
+#define pdf_install_load_system_font_funcs(ctx) ((void)(ctx))
+#endif
 
 static void mupdf_cbz_add_page_info(char *buf,fz_context *ctx,fz_document *doc,
                                     int pageno,int npages);

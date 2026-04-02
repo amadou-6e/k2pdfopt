@@ -403,7 +403,9 @@ void wrapbmp_flush(MASTERINFO *masterinfo,K2PDFOPT_SETTINGS *k2settings,
     BMPREGION region;
     WILLUSBITMAP *bmp8,_bmp8;
     int just;
+    int maxpix;
     WRAPBMP *wrapbmp;
+    double stretch_ratio,fill_ratio;
     /*
     int gap,nomss,dh;
     */
@@ -479,7 +481,33 @@ k2printf("Bitmap is %d x %d (baseline=%d)\n",wrapbmp->bmp.width,wrapbmp->bmp.hei
     region.bbox.type=REGION_TYPE_TEXTLINE;
     region.wrectmaps=&wrapbmp->wrectmaps;
     if (!allow_full_justification)
-        just = (wrapbmp->just & 0xcf) | 0x20;
+        {
+        /*
+        ** In stretch mode, keep full-width justification even for paragraph-end
+        ** flushes so the final line also participates in the tighter reflow.
+        */
+        if (k2settings->reflow_stretch_enable && k2settings->text_wrap!=0)
+            {
+            stretch_ratio=k2settings->reflow_stretch_ratio;
+            if (stretch_ratio < 1.0)
+                stretch_ratio=1.0;
+            if (k2settings->reflow_stretch_max_ratio > 1.0
+                    && stretch_ratio > k2settings->reflow_stretch_max_ratio)
+                stretch_ratio=k2settings->reflow_stretch_max_ratio;
+            maxpix=(int)(k2settings->max_region_width_inches*k2settings->src_dpi*stretch_ratio+0.5);
+            if (maxpix < 1)
+                maxpix=1;
+            fill_ratio=(double)wrapbmp->bmp.width/maxpix;
+            /*
+            ** In stretch mode, never apply full justification to paragraph-end lines.
+            ** This prevents ugly stretched spacing on short terminal lines.
+            ** Paragraph-end lines benefit from ragged-right formatting instead.
+            */
+            just = (wrapbmp->just & 0xcf) | 0x20;
+            }
+        else
+            just = (wrapbmp->just & 0xcf) | 0x20;
+        }
     else
         just = wrapbmp->just;
 

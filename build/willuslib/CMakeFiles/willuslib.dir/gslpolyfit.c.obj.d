@@ -1,5 +1,5 @@
 willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj: \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\gslpolyfit.c \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\gslpolyfit.c \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
@@ -19,8 +19,8 @@ willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj: \
  C:/msys64/mingw64/include/malloc.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/mm_malloc.h \
  C:/msys64/mingw64/include/errno.h \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willus.h \
- C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/config.h \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willus.h \
+ C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/config.h \
  C:/msys64/mingw64/include/string.h \
  C:/msys64/mingw64/include/sec_api/string_s.h \
  C:/msys64/mingw64/include/time.h C:/msys64/mingw64/include/sys/timeb.h \

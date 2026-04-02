@@ -1,5 +1,5 @@
 willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wmupdf.c \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wmupdf.c \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
@@ -11,8 +11,8 @@ willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: \
  C:/msys64/mingw64/include/swprintf.inl \
  C:/msys64/mingw64/include/sec_api/stdio_s.h \
  C:/msys64/mingw64/include/math.h C:/msys64/mingw64/include/crtdefs.h \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willus.h \
- C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/config.h \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willus.h \
+ C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/config.h \
  C:/msys64/mingw64/include/stdlib.h \
  C:/msys64/mingw64/include/corecrt_wstdlib.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/limits.h \
@@ -38,4 +38,81 @@ willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: \
  C:/msys64/mingw64/include/process.h \
  C:/msys64/mingw64/include/corecrt_startup.h \
  C:/msys64/mingw64/include/getopt.h \
- C:/msys64/mingw64/include/pthread_unistd.h
+ C:/msys64/mingw64/include/pthread_unistd.h \
+ C:/msys64/mingw64/include/mupdf/pdf.h \
+ C:/msys64/mingw64/include/mupdf/fitz.h \
+ C:/msys64/mingw64/include/mupdf/fitz/version.h \
+ C:/msys64/mingw64/include/mupdf/fitz/config.h \
+ C:/msys64/mingw64/include/mupdf/fitz/system.h \
+ C:/msys64/mingw64/include/setjmp.h \
+ C:/msys64/mingw64/include/mupdf/fitz/export.h \
+ C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdint.h \
+ C:/msys64/mingw64/include/stdint.h \
+ C:/msys64/mingw64/include/mupdf/memento.h \
+ C:/msys64/mingw64/include/mupdf/fitz/track-usage.h \
+ C:/msys64/mingw64/include/mupdf/fitz/context.h \
+ C:/msys64/mingw64/include/mupdf/fitz/geometry.h \
+ C:/msys64/mingw64/include/assert.h \
+ C:/msys64/mingw64/include/mupdf/fitz/output.h \
+ C:/msys64/mingw64/include/mupdf/fitz/buffer.h \
+ C:/msys64/mingw64/include/mupdf/fitz/string-util.h \
+ C:/msys64/mingw64/include/mupdf/fitz/stream.h \
+ C:/msys64/mingw64/include/mupdf/fitz/log.h \
+ C:/msys64/mingw64/include/mupdf/fitz/crypt.h \
+ C:/msys64/mingw64/include/mupdf/fitz/getopt.h \
+ C:/msys64/mingw64/include/mupdf/fitz/hash.h \
+ C:/msys64/mingw64/include/mupdf/fitz/pool.h \
+ C:/msys64/mingw64/include/mupdf/fitz/tree.h \
+ C:/msys64/mingw64/include/mupdf/fitz/bidi.h \
+ C:/msys64/mingw64/include/mupdf/fitz/xml.h \
+ C:/msys64/mingw64/include/mupdf/fitz/archive.h \
+ C:/msys64/mingw64/include/mupdf/fitz/compress.h \
+ C:/msys64/mingw64/include/mupdf/fitz/pixmap.h \
+ C:/msys64/mingw64/include/mupdf/fitz/store.h \
+ C:/msys64/mingw64/include/mupdf/fitz/separation.h \
+ C:/msys64/mingw64/include/mupdf/fitz/color.h \
+ C:/msys64/mingw64/include/mupdf/fitz/compressed-buffer.h \
+ C:/msys64/mingw64/include/mupdf/fitz/filter.h \
+ C:/msys64/mingw64/include/mupdf/fitz/heap.h \
+ C:/msys64/mingw64/include/mupdf/fitz/heap-imp.h \
+ C:/msys64/mingw64/include/mupdf/fitz/bitmap.h \
+ C:/msys64/mingw64/include/mupdf/fitz/image.h \
+ C:/msys64/mingw64/include/mupdf/fitz/shade.h \
+ C:/msys64/mingw64/include/mupdf/fitz/font.h \
+ C:/msys64/mingw64/include/mupdf/fitz/path.h \
+ C:/msys64/mingw64/include/mupdf/fitz/text.h \
+ C:/msys64/mingw64/include/mupdf/fitz/glyph.h \
+ C:/msys64/mingw64/include/mupdf/fitz/device.h \
+ C:/msys64/mingw64/include/mupdf/fitz/display-list.h \
+ C:/msys64/mingw64/include/mupdf/fitz/structured-text.h \
+ C:/msys64/mingw64/include/mupdf/fitz/types.h \
+ C:/msys64/mingw64/include/mupdf/fitz/transition.h \
+ C:/msys64/mingw64/include/mupdf/fitz/glyph-cache.h \
+ C:/msys64/mingw64/include/mupdf/fitz/link.h \
+ C:/msys64/mingw64/include/mupdf/fitz/outline.h \
+ C:/msys64/mingw64/include/mupdf/fitz/document.h \
+ C:/msys64/mingw64/include/mupdf/fitz/util.h \
+ C:/msys64/mingw64/include/mupdf/fitz/writer.h \
+ C:/msys64/mingw64/include/mupdf/fitz/band-writer.h \
+ C:/msys64/mingw64/include/mupdf/fitz/write-pixmap.h \
+ C:/msys64/mingw64/include/mupdf/fitz/output-svg.h \
+ C:/msys64/mingw64/include/mupdf/fitz/story.h \
+ C:/msys64/mingw64/include/mupdf/fitz/story-writer.h \
+ C:/msys64/mingw64/include/mupdf/pdf/object.h \
+ C:/msys64/mingw64/include/mupdf/pdf/name-table.h \
+ C:/msys64/mingw64/include/mupdf/pdf/document.h \
+ C:/msys64/mingw64/include/mupdf/fitz/export.h \
+ C:/msys64/mingw64/include/mupdf/pdf/parse.h \
+ C:/msys64/mingw64/include/mupdf/pdf/xref.h \
+ C:/msys64/mingw64/include/mupdf/pdf/crypt.h \
+ C:/msys64/mingw64/include/mupdf/pdf/page.h \
+ C:/msys64/mingw64/include/mupdf/pdf/interpret.h \
+ C:/msys64/mingw64/include/mupdf/pdf/font.h \
+ C:/msys64/mingw64/include/mupdf/pdf/cmap.h \
+ C:/msys64/mingw64/include/mupdf/pdf/resource.h \
+ C:/msys64/mingw64/include/mupdf/pdf/annot.h \
+ C:/msys64/mingw64/include/mupdf/pdf/form.h \
+ C:/msys64/mingw64/include/mupdf/pdf/event.h \
+ C:/msys64/mingw64/include/mupdf/pdf/javascript.h \
+ C:/msys64/mingw64/include/mupdf/pdf/clean.h \
+ C:/msys64/mingw64/include/mupdf/pdf/image-rewriter.h

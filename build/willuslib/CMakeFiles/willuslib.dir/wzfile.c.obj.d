@@ -1,7 +1,7 @@
 willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj: \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wzfile.c \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willus.h \
- C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/config.h \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wzfile.c \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willus.h \
+ C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/config.h \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \

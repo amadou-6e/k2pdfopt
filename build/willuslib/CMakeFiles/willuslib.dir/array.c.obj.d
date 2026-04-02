@@ -1,5 +1,5 @@
 willuslib/CMakeFiles/willuslib.dir/array.c.obj: \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\array.c \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\array.c \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
@@ -26,8 +26,8 @@ willuslib/CMakeFiles/willuslib.dir/array.c.obj: \
  C:/msys64/mingw64/include/pthread_time.h \
  C:/msys64/mingw64/include/pthread_compat.h \
  C:/msys64/mingw64/include/math.h \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willus.h \
- C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/config.h \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willus.h \
+ C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/config.h \
  C:/msys64/mingw64/lib/gcc/x86_64-w64-mingw32/15.2.0/include/stdarg.h \
  C:/msys64/mingw64/include/stdarg.h \
  C:/msys64/mingw64/include/_mingw_stdarg.h

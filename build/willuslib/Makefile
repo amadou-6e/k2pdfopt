@@ -56,10 +56,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt
+CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build
+CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib\\CMakeFiles\progress.marks
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 0
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib\\CMakeFiles\progress.marks
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/clean
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/preinstall
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/preinstall
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 willuslib/CMakeFiles/willuslib.dir/rule:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/CMakeFiles/willuslib.dir/rule
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/CMakeFiles/willuslib.dir/rule
 .PHONY : willuslib/CMakeFiles/willuslib.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ willuslib: willuslib/CMakeFiles/willuslib.dir/rule
 
 # fast build rule for target.
 willuslib/fast:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/build
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/build
 .PHONY : willuslib/fast
 
 ansi.obj: ansi.c.obj
@@ -134,7 +134,7 @@ ansi.obj: ansi.c.obj
 
 # target to build an object file
 ansi.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ansi.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ansi.c.obj
 .PHONY : ansi.c.obj
 
 ansi.i: ansi.c.i
@@ -142,7 +142,7 @@ ansi.i: ansi.c.i
 
 # target to preprocess a source file
 ansi.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ansi.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ansi.c.i
 .PHONY : ansi.c.i
 
 ansi.s: ansi.c.s
@@ -150,7 +150,7 @@ ansi.s: ansi.c.s
 
 # target to generate assembly for a file
 ansi.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ansi.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ansi.c.s
 .PHONY : ansi.c.s
 
 array.obj: array.c.obj
@@ -158,7 +158,7 @@ array.obj: array.c.obj
 
 # target to build an object file
 array.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/array.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/array.c.obj
 .PHONY : array.c.obj
 
 array.i: array.c.i
@@ -166,7 +166,7 @@ array.i: array.c.i
 
 # target to preprocess a source file
 array.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/array.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/array.c.i
 .PHONY : array.c.i
 
 array.s: array.c.s
@@ -174,7 +174,7 @@ array.s: array.c.s
 
 # target to generate assembly for a file
 array.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/array.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/array.c.s
 .PHONY : array.c.s
 
 bmp.obj: bmp.c.obj
@@ -182,7 +182,7 @@ bmp.obj: bmp.c.obj
 
 # target to build an object file
 bmp.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmp.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmp.c.obj
 .PHONY : bmp.c.obj
 
 bmp.i: bmp.c.i
@@ -190,7 +190,7 @@ bmp.i: bmp.c.i
 
 # target to preprocess a source file
 bmp.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmp.c.i
 .PHONY : bmp.c.i
 
 bmp.s: bmp.c.s
@@ -198,7 +198,7 @@ bmp.s: bmp.c.s
 
 # target to generate assembly for a file
 bmp.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmp.c.s
 .PHONY : bmp.c.s
 
 bmpdjvu.obj: bmpdjvu.c.obj
@@ -206,7 +206,7 @@ bmpdjvu.obj: bmpdjvu.c.obj
 
 # target to build an object file
 bmpdjvu.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj
 .PHONY : bmpdjvu.c.obj
 
 bmpdjvu.i: bmpdjvu.c.i
@@ -214,7 +214,7 @@ bmpdjvu.i: bmpdjvu.c.i
 
 # target to preprocess a source file
 bmpdjvu.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.i
 .PHONY : bmpdjvu.c.i
 
 bmpdjvu.s: bmpdjvu.c.s
@@ -222,7 +222,7 @@ bmpdjvu.s: bmpdjvu.c.s
 
 # target to generate assembly for a file
 bmpdjvu.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.s
 .PHONY : bmpdjvu.c.s
 
 bmpmupdf.obj: bmpmupdf.c.obj
@@ -230,7 +230,7 @@ bmpmupdf.obj: bmpmupdf.c.obj
 
 # target to build an object file
 bmpmupdf.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj
 .PHONY : bmpmupdf.c.obj
 
 bmpmupdf.i: bmpmupdf.c.i
@@ -238,7 +238,7 @@ bmpmupdf.i: bmpmupdf.c.i
 
 # target to preprocess a source file
 bmpmupdf.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.i
 .PHONY : bmpmupdf.c.i
 
 bmpmupdf.s: bmpmupdf.c.s
@@ -246,7 +246,7 @@ bmpmupdf.s: bmpmupdf.c.s
 
 # target to generate assembly for a file
 bmpmupdf.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.s
 .PHONY : bmpmupdf.c.s
 
 dtcompress.obj: dtcompress.c.obj
@@ -254,7 +254,7 @@ dtcompress.obj: dtcompress.c.obj
 
 # target to build an object file
 dtcompress.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj
 .PHONY : dtcompress.c.obj
 
 dtcompress.i: dtcompress.c.i
@@ -262,7 +262,7 @@ dtcompress.i: dtcompress.c.i
 
 # target to preprocess a source file
 dtcompress.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/dtcompress.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/dtcompress.c.i
 .PHONY : dtcompress.c.i
 
 dtcompress.s: dtcompress.c.s
@@ -270,7 +270,7 @@ dtcompress.s: dtcompress.c.s
 
 # target to generate assembly for a file
 dtcompress.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/dtcompress.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/dtcompress.c.s
 .PHONY : dtcompress.c.s
 
 filelist.obj: filelist.c.obj
@@ -278,7 +278,7 @@ filelist.obj: filelist.c.obj
 
 # target to build an object file
 filelist.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/filelist.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/filelist.c.obj
 .PHONY : filelist.c.obj
 
 filelist.i: filelist.c.i
@@ -286,7 +286,7 @@ filelist.i: filelist.c.i
 
 # target to preprocess a source file
 filelist.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/filelist.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/filelist.c.i
 .PHONY : filelist.c.i
 
 filelist.s: filelist.c.s
@@ -294,7 +294,7 @@ filelist.s: filelist.c.s
 
 # target to generate assembly for a file
 filelist.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/filelist.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/filelist.c.s
 .PHONY : filelist.c.s
 
 fontdata.obj: fontdata.c.obj
@@ -302,7 +302,7 @@ fontdata.obj: fontdata.c.obj
 
 # target to build an object file
 fontdata.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj
 .PHONY : fontdata.c.obj
 
 fontdata.i: fontdata.c.i
@@ -310,7 +310,7 @@ fontdata.i: fontdata.c.i
 
 # target to preprocess a source file
 fontdata.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontdata.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontdata.c.i
 .PHONY : fontdata.c.i
 
 fontdata.s: fontdata.c.s
@@ -318,7 +318,7 @@ fontdata.s: fontdata.c.s
 
 # target to generate assembly for a file
 fontdata.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontdata.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontdata.c.s
 .PHONY : fontdata.c.s
 
 fontrender.obj: fontrender.c.obj
@@ -326,7 +326,7 @@ fontrender.obj: fontrender.c.obj
 
 # target to build an object file
 fontrender.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj
 .PHONY : fontrender.c.obj
 
 fontrender.i: fontrender.c.i
@@ -334,7 +334,7 @@ fontrender.i: fontrender.c.i
 
 # target to preprocess a source file
 fontrender.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontrender.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontrender.c.i
 .PHONY : fontrender.c.i
 
 fontrender.s: fontrender.c.s
@@ -342,7 +342,7 @@ fontrender.s: fontrender.c.s
 
 # target to generate assembly for a file
 fontrender.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontrender.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/fontrender.c.s
 .PHONY : fontrender.c.s
 
 gslpolyfit.obj: gslpolyfit.c.obj
@@ -350,7 +350,7 @@ gslpolyfit.obj: gslpolyfit.c.obj
 
 # target to build an object file
 gslpolyfit.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj
 .PHONY : gslpolyfit.c.obj
 
 gslpolyfit.i: gslpolyfit.c.i
@@ -358,7 +358,7 @@ gslpolyfit.i: gslpolyfit.c.i
 
 # target to preprocess a source file
 gslpolyfit.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.i
 .PHONY : gslpolyfit.c.i
 
 gslpolyfit.s: gslpolyfit.c.s
@@ -366,7 +366,7 @@ gslpolyfit.s: gslpolyfit.c.s
 
 # target to generate assembly for a file
 gslpolyfit.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.s
 .PHONY : gslpolyfit.c.s
 
 linux.obj: linux.c.obj
@@ -374,7 +374,7 @@ linux.obj: linux.c.obj
 
 # target to build an object file
 linux.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/linux.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/linux.c.obj
 .PHONY : linux.c.obj
 
 linux.i: linux.c.i
@@ -382,7 +382,7 @@ linux.i: linux.c.i
 
 # target to preprocess a source file
 linux.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/linux.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/linux.c.i
 .PHONY : linux.c.i
 
 linux.s: linux.c.s
@@ -390,7 +390,7 @@ linux.s: linux.c.s
 
 # target to generate assembly for a file
 linux.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/linux.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/linux.c.s
 .PHONY : linux.c.s
 
 math.obj: math.c.obj
@@ -398,7 +398,7 @@ math.obj: math.c.obj
 
 # target to build an object file
 math.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/math.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/math.c.obj
 .PHONY : math.c.obj
 
 math.i: math.c.i
@@ -406,7 +406,7 @@ math.i: math.c.i
 
 # target to preprocess a source file
 math.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/math.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/math.c.i
 .PHONY : math.c.i
 
 math.s: math.c.s
@@ -414,7 +414,7 @@ math.s: math.c.s
 
 # target to generate assembly for a file
 math.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/math.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/math.c.s
 .PHONY : math.c.s
 
 mem.obj: mem.c.obj
@@ -422,7 +422,7 @@ mem.obj: mem.c.obj
 
 # target to build an object file
 mem.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/mem.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/mem.c.obj
 .PHONY : mem.c.obj
 
 mem.i: mem.c.i
@@ -430,7 +430,7 @@ mem.i: mem.c.i
 
 # target to preprocess a source file
 mem.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/mem.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/mem.c.i
 .PHONY : mem.c.i
 
 mem.s: mem.c.s
@@ -438,7 +438,7 @@ mem.s: mem.c.s
 
 # target to generate assembly for a file
 mem.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/mem.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/mem.c.s
 .PHONY : mem.c.s
 
 ocr.obj: ocr.c.obj
@@ -446,7 +446,7 @@ ocr.obj: ocr.c.obj
 
 # target to build an object file
 ocr.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocr.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocr.c.obj
 .PHONY : ocr.c.obj
 
 ocr.i: ocr.c.i
@@ -454,7 +454,7 @@ ocr.i: ocr.c.i
 
 # target to preprocess a source file
 ocr.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocr.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocr.c.i
 .PHONY : ocr.c.i
 
 ocr.s: ocr.c.s
@@ -462,7 +462,7 @@ ocr.s: ocr.c.s
 
 # target to generate assembly for a file
 ocr.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocr.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocr.c.s
 .PHONY : ocr.c.s
 
 ocrwords.obj: ocrwords.c.obj
@@ -470,7 +470,7 @@ ocrwords.obj: ocrwords.c.obj
 
 # target to build an object file
 ocrwords.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj
 .PHONY : ocrwords.c.obj
 
 ocrwords.i: ocrwords.c.i
@@ -478,7 +478,7 @@ ocrwords.i: ocrwords.c.i
 
 # target to preprocess a source file
 ocrwords.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocrwords.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocrwords.c.i
 .PHONY : ocrwords.c.i
 
 ocrwords.s: ocrwords.c.s
@@ -486,7 +486,7 @@ ocrwords.s: ocrwords.c.s
 
 # target to generate assembly for a file
 ocrwords.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocrwords.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/ocrwords.c.s
 .PHONY : ocrwords.c.s
 
 pdffonts.obj: pdffonts.c.obj
@@ -494,7 +494,7 @@ pdffonts.obj: pdffonts.c.obj
 
 # target to build an object file
 pdffonts.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj
 .PHONY : pdffonts.c.obj
 
 pdffonts.i: pdffonts.c.i
@@ -502,7 +502,7 @@ pdffonts.i: pdffonts.c.i
 
 # target to preprocess a source file
 pdffonts.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdffonts.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdffonts.c.i
 .PHONY : pdffonts.c.i
 
 pdffonts.s: pdffonts.c.s
@@ -510,7 +510,7 @@ pdffonts.s: pdffonts.c.s
 
 # target to generate assembly for a file
 pdffonts.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdffonts.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdffonts.c.s
 .PHONY : pdffonts.c.s
 
 pdfwrite.obj: pdfwrite.c.obj
@@ -518,7 +518,7 @@ pdfwrite.obj: pdfwrite.c.obj
 
 # target to build an object file
 pdfwrite.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj
 .PHONY : pdfwrite.c.obj
 
 pdfwrite.i: pdfwrite.c.i
@@ -526,7 +526,7 @@ pdfwrite.i: pdfwrite.c.i
 
 # target to preprocess a source file
 pdfwrite.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.i
 .PHONY : pdfwrite.c.i
 
 pdfwrite.s: pdfwrite.c.s
@@ -534,7 +534,7 @@ pdfwrite.s: pdfwrite.c.s
 
 # target to generate assembly for a file
 pdfwrite.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.s
 .PHONY : pdfwrite.c.s
 
 point2d.obj: point2d.c.obj
@@ -542,7 +542,7 @@ point2d.obj: point2d.c.obj
 
 # target to build an object file
 point2d.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/point2d.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/point2d.c.obj
 .PHONY : point2d.c.obj
 
 point2d.i: point2d.c.i
@@ -550,7 +550,7 @@ point2d.i: point2d.c.i
 
 # target to preprocess a source file
 point2d.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/point2d.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/point2d.c.i
 .PHONY : point2d.c.i
 
 point2d.s: point2d.c.s
@@ -558,7 +558,7 @@ point2d.s: point2d.c.s
 
 # target to generate assembly for a file
 point2d.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/point2d.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/point2d.c.s
 .PHONY : point2d.c.s
 
 render.obj: render.c.obj
@@ -566,7 +566,7 @@ render.obj: render.c.obj
 
 # target to build an object file
 render.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/render.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/render.c.obj
 .PHONY : render.c.obj
 
 render.i: render.c.i
@@ -574,7 +574,7 @@ render.i: render.c.i
 
 # target to preprocess a source file
 render.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/render.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/render.c.i
 .PHONY : render.c.i
 
 render.s: render.c.s
@@ -582,7 +582,7 @@ render.s: render.c.s
 
 # target to generate assembly for a file
 render.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/render.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/render.c.s
 .PHONY : render.c.s
 
 strbuf.obj: strbuf.c.obj
@@ -590,7 +590,7 @@ strbuf.obj: strbuf.c.obj
 
 # target to build an object file
 strbuf.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj
 .PHONY : strbuf.c.obj
 
 strbuf.i: strbuf.c.i
@@ -598,7 +598,7 @@ strbuf.i: strbuf.c.i
 
 # target to preprocess a source file
 strbuf.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/strbuf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/strbuf.c.i
 .PHONY : strbuf.c.i
 
 strbuf.s: strbuf.c.s
@@ -606,7 +606,7 @@ strbuf.s: strbuf.c.s
 
 # target to generate assembly for a file
 strbuf.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/strbuf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/strbuf.c.s
 .PHONY : strbuf.c.s
 
 string.obj: string.c.obj
@@ -614,7 +614,7 @@ string.obj: string.c.obj
 
 # target to build an object file
 string.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/string.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/string.c.obj
 .PHONY : string.c.obj
 
 string.i: string.c.i
@@ -622,7 +622,7 @@ string.i: string.c.i
 
 # target to preprocess a source file
 string.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/string.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/string.c.i
 .PHONY : string.c.i
 
 string.s: string.c.s
@@ -630,7 +630,7 @@ string.s: string.c.s
 
 # target to generate assembly for a file
 string.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/string.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/string.c.s
 .PHONY : string.c.s
 
 token.obj: token.c.obj
@@ -638,7 +638,7 @@ token.obj: token.c.obj
 
 # target to build an object file
 token.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/token.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/token.c.obj
 .PHONY : token.c.obj
 
 token.i: token.c.i
@@ -646,7 +646,7 @@ token.i: token.c.i
 
 # target to preprocess a source file
 token.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/token.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/token.c.i
 .PHONY : token.c.i
 
 token.s: token.c.s
@@ -654,7 +654,7 @@ token.s: token.c.s
 
 # target to generate assembly for a file
 token.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/token.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/token.c.s
 .PHONY : token.c.s
 
 wfile.obj: wfile.c.obj
@@ -662,7 +662,7 @@ wfile.obj: wfile.c.obj
 
 # target to build an object file
 wfile.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wfile.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wfile.c.obj
 .PHONY : wfile.c.obj
 
 wfile.i: wfile.c.i
@@ -670,7 +670,7 @@ wfile.i: wfile.c.i
 
 # target to preprocess a source file
 wfile.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wfile.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wfile.c.i
 .PHONY : wfile.c.i
 
 wfile.s: wfile.c.s
@@ -678,7 +678,7 @@ wfile.s: wfile.c.s
 
 # target to generate assembly for a file
 wfile.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wfile.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wfile.c.s
 .PHONY : wfile.c.s
 
 wgs.obj: wgs.c.obj
@@ -686,7 +686,7 @@ wgs.obj: wgs.c.obj
 
 # target to build an object file
 wgs.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgs.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgs.c.obj
 .PHONY : wgs.c.obj
 
 wgs.i: wgs.c.i
@@ -694,7 +694,7 @@ wgs.i: wgs.c.i
 
 # target to preprocess a source file
 wgs.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgs.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgs.c.i
 .PHONY : wgs.c.i
 
 wgs.s: wgs.c.s
@@ -702,7 +702,7 @@ wgs.s: wgs.c.s
 
 # target to generate assembly for a file
 wgs.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgs.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgs.c.s
 .PHONY : wgs.c.s
 
 wgui.obj: wgui.c.obj
@@ -710,7 +710,7 @@ wgui.obj: wgui.c.obj
 
 # target to build an object file
 wgui.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgui.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgui.c.obj
 .PHONY : wgui.c.obj
 
 wgui.i: wgui.c.i
@@ -718,7 +718,7 @@ wgui.i: wgui.c.i
 
 # target to preprocess a source file
 wgui.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgui.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgui.c.i
 .PHONY : wgui.c.i
 
 wgui.s: wgui.c.s
@@ -726,7 +726,7 @@ wgui.s: wgui.c.s
 
 # target to generate assembly for a file
 wgui.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgui.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wgui.c.s
 .PHONY : wgui.c.s
 
 willusversion.obj: willusversion.c.obj
@@ -734,7 +734,7 @@ willusversion.obj: willusversion.c.obj
 
 # target to build an object file
 willusversion.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj
 .PHONY : willusversion.c.obj
 
 willusversion.i: willusversion.c.i
@@ -742,7 +742,7 @@ willusversion.i: willusversion.c.i
 
 # target to preprocess a source file
 willusversion.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/willusversion.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/willusversion.c.i
 .PHONY : willusversion.c.i
 
 willusversion.s: willusversion.c.s
@@ -750,7 +750,7 @@ willusversion.s: willusversion.c.s
 
 # target to generate assembly for a file
 willusversion.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/willusversion.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/willusversion.c.s
 .PHONY : willusversion.c.s
 
 win.obj: win.c.obj
@@ -758,7 +758,7 @@ win.obj: win.c.obj
 
 # target to build an object file
 win.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/win.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/win.c.obj
 .PHONY : win.c.obj
 
 win.i: win.c.i
@@ -766,7 +766,7 @@ win.i: win.c.i
 
 # target to preprocess a source file
 win.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/win.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/win.c.i
 .PHONY : win.c.i
 
 win.s: win.c.s
@@ -774,7 +774,7 @@ win.s: win.c.s
 
 # target to generate assembly for a file
 win.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/win.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/win.c.s
 .PHONY : win.c.s
 
 winbmp.obj: winbmp.c.obj
@@ -782,7 +782,7 @@ winbmp.obj: winbmp.c.obj
 
 # target to build an object file
 winbmp.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj
 .PHONY : winbmp.c.obj
 
 winbmp.i: winbmp.c.i
@@ -790,7 +790,7 @@ winbmp.i: winbmp.c.i
 
 # target to preprocess a source file
 winbmp.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winbmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winbmp.c.i
 .PHONY : winbmp.c.i
 
 winbmp.s: winbmp.c.s
@@ -798,7 +798,7 @@ winbmp.s: winbmp.c.s
 
 # target to generate assembly for a file
 winbmp.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winbmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winbmp.c.s
 .PHONY : winbmp.c.s
 
 wincomdlg.obj: wincomdlg.c.obj
@@ -806,7 +806,7 @@ wincomdlg.obj: wincomdlg.c.obj
 
 # target to build an object file
 wincomdlg.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj
 .PHONY : wincomdlg.c.obj
 
 wincomdlg.i: wincomdlg.c.i
@@ -814,7 +814,7 @@ wincomdlg.i: wincomdlg.c.i
 
 # target to preprocess a source file
 wincomdlg.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.i
 .PHONY : wincomdlg.c.i
 
 wincomdlg.s: wincomdlg.c.s
@@ -822,7 +822,7 @@ wincomdlg.s: wincomdlg.c.s
 
 # target to generate assembly for a file
 wincomdlg.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.s
 .PHONY : wincomdlg.c.s
 
 wininet.obj: wininet.c.obj
@@ -830,7 +830,7 @@ wininet.obj: wininet.c.obj
 
 # target to build an object file
 wininet.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wininet.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wininet.c.obj
 .PHONY : wininet.c.obj
 
 wininet.i: wininet.c.i
@@ -838,7 +838,7 @@ wininet.i: wininet.c.i
 
 # target to preprocess a source file
 wininet.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wininet.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wininet.c.i
 .PHONY : wininet.c.i
 
 wininet.s: wininet.c.s
@@ -846,7 +846,7 @@ wininet.s: wininet.c.s
 
 # target to generate assembly for a file
 wininet.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wininet.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wininet.c.s
 .PHONY : wininet.c.s
 
 winmbox.obj: winmbox.c.obj
@@ -854,7 +854,7 @@ winmbox.obj: winmbox.c.obj
 
 # target to build an object file
 winmbox.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj
 .PHONY : winmbox.c.obj
 
 winmbox.i: winmbox.c.i
@@ -862,7 +862,7 @@ winmbox.i: winmbox.c.i
 
 # target to preprocess a source file
 winmbox.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winmbox.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winmbox.c.i
 .PHONY : winmbox.c.i
 
 winmbox.s: winmbox.c.s
@@ -870,7 +870,7 @@ winmbox.s: winmbox.c.s
 
 # target to generate assembly for a file
 winmbox.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winmbox.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winmbox.c.s
 .PHONY : winmbox.c.s
 
 winshell.obj: winshell.c.obj
@@ -878,7 +878,7 @@ winshell.obj: winshell.c.obj
 
 # target to build an object file
 winshell.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshell.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshell.c.obj
 .PHONY : winshell.c.obj
 
 winshell.i: winshell.c.i
@@ -886,7 +886,7 @@ winshell.i: winshell.c.i
 
 # target to preprocess a source file
 winshell.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshell.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshell.c.i
 .PHONY : winshell.c.i
 
 winshell.s: winshell.c.s
@@ -894,7 +894,7 @@ winshell.s: winshell.c.s
 
 # target to generate assembly for a file
 winshell.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshell.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshell.c.s
 .PHONY : winshell.c.s
 
 winshellwapi.obj: winshellwapi.c.obj
@@ -902,7 +902,7 @@ winshellwapi.obj: winshellwapi.c.obj
 
 # target to build an object file
 winshellwapi.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj
 .PHONY : winshellwapi.c.obj
 
 winshellwapi.i: winshellwapi.c.i
@@ -910,7 +910,7 @@ winshellwapi.i: winshellwapi.c.i
 
 # target to preprocess a source file
 winshellwapi.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.i
 .PHONY : winshellwapi.c.i
 
 winshellwapi.s: winshellwapi.c.s
@@ -918,7 +918,7 @@ winshellwapi.s: winshellwapi.c.s
 
 # target to generate assembly for a file
 winshellwapi.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.s
 .PHONY : winshellwapi.c.s
 
 wleptonica.obj: wleptonica.c.obj
@@ -926,7 +926,7 @@ wleptonica.obj: wleptonica.c.obj
 
 # target to build an object file
 wleptonica.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj
 .PHONY : wleptonica.c.obj
 
 wleptonica.i: wleptonica.c.i
@@ -934,7 +934,7 @@ wleptonica.i: wleptonica.c.i
 
 # target to preprocess a source file
 wleptonica.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wleptonica.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wleptonica.c.i
 .PHONY : wleptonica.c.i
 
 wleptonica.s: wleptonica.c.s
@@ -942,7 +942,7 @@ wleptonica.s: wleptonica.c.s
 
 # target to generate assembly for a file
 wleptonica.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wleptonica.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wleptonica.c.s
 .PHONY : wleptonica.c.s
 
 wmupdf.obj: wmupdf.c.obj
@@ -950,7 +950,7 @@ wmupdf.obj: wmupdf.c.obj
 
 # target to build an object file
 wmupdf.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj
 .PHONY : wmupdf.c.obj
 
 wmupdf.i: wmupdf.c.i
@@ -958,7 +958,7 @@ wmupdf.i: wmupdf.c.i
 
 # target to preprocess a source file
 wmupdf.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdf.c.i
 .PHONY : wmupdf.c.i
 
 wmupdf.s: wmupdf.c.s
@@ -966,7 +966,7 @@ wmupdf.s: wmupdf.c.s
 
 # target to generate assembly for a file
 wmupdf.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdf.c.s
 .PHONY : wmupdf.c.s
 
 wmupdfinfo.obj: wmupdfinfo.c.obj
@@ -974,7 +974,7 @@ wmupdfinfo.obj: wmupdfinfo.c.obj
 
 # target to build an object file
 wmupdfinfo.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj
 .PHONY : wmupdfinfo.c.obj
 
 wmupdfinfo.i: wmupdfinfo.c.i
@@ -982,7 +982,7 @@ wmupdfinfo.i: wmupdfinfo.c.i
 
 # target to preprocess a source file
 wmupdfinfo.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.i
 .PHONY : wmupdfinfo.c.i
 
 wmupdfinfo.s: wmupdfinfo.c.s
@@ -990,7 +990,7 @@ wmupdfinfo.s: wmupdfinfo.c.s
 
 # target to generate assembly for a file
 wmupdfinfo.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.s
 .PHONY : wmupdfinfo.c.s
 
 wpdf.obj: wpdf.c.obj
@@ -998,7 +998,7 @@ wpdf.obj: wpdf.c.obj
 
 # target to build an object file
 wpdf.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj
 .PHONY : wpdf.c.obj
 
 wpdf.i: wpdf.c.i
@@ -1006,7 +1006,7 @@ wpdf.i: wpdf.c.i
 
 # target to preprocess a source file
 wpdf.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdf.c.i
 .PHONY : wpdf.c.i
 
 wpdf.s: wpdf.c.s
@@ -1014,7 +1014,7 @@ wpdf.s: wpdf.c.s
 
 # target to generate assembly for a file
 wpdf.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdf.c.s
 .PHONY : wpdf.c.s
 
 wpdfoutline.obj: wpdfoutline.c.obj
@@ -1022,7 +1022,7 @@ wpdfoutline.obj: wpdfoutline.c.obj
 
 # target to build an object file
 wpdfoutline.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj
 .PHONY : wpdfoutline.c.obj
 
 wpdfoutline.i: wpdfoutline.c.i
@@ -1030,7 +1030,7 @@ wpdfoutline.i: wpdfoutline.c.i
 
 # target to preprocess a source file
 wpdfoutline.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.i
 .PHONY : wpdfoutline.c.i
 
 wpdfoutline.s: wpdfoutline.c.s
@@ -1038,7 +1038,7 @@ wpdfoutline.s: wpdfoutline.c.s
 
 # target to generate assembly for a file
 wpdfoutline.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.s
 .PHONY : wpdfoutline.c.s
 
 wpdfutil.obj: wpdfutil.c.obj
@@ -1046,7 +1046,7 @@ wpdfutil.obj: wpdfutil.c.obj
 
 # target to build an object file
 wpdfutil.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj
 .PHONY : wpdfutil.c.obj
 
 wpdfutil.i: wpdfutil.c.i
@@ -1054,7 +1054,7 @@ wpdfutil.i: wpdfutil.c.i
 
 # target to preprocess a source file
 wpdfutil.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.i
 .PHONY : wpdfutil.c.i
 
 wpdfutil.s: wpdfutil.c.s
@@ -1062,7 +1062,7 @@ wpdfutil.s: wpdfutil.c.s
 
 # target to generate assembly for a file
 wpdfutil.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.s
 .PHONY : wpdfutil.c.s
 
 wsys.obj: wsys.c.obj
@@ -1070,7 +1070,7 @@ wsys.obj: wsys.c.obj
 
 # target to build an object file
 wsys.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wsys.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wsys.c.obj
 .PHONY : wsys.c.obj
 
 wsys.i: wsys.c.i
@@ -1078,7 +1078,7 @@ wsys.i: wsys.c.i
 
 # target to preprocess a source file
 wsys.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wsys.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wsys.c.i
 .PHONY : wsys.c.i
 
 wsys.s: wsys.c.s
@@ -1086,7 +1086,7 @@ wsys.s: wsys.c.s
 
 # target to generate assembly for a file
 wsys.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wsys.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wsys.c.s
 .PHONY : wsys.c.s
 
 wzfile.obj: wzfile.c.obj
@@ -1094,7 +1094,7 @@ wzfile.obj: wzfile.c.obj
 
 # target to build an object file
 wzfile.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj
 .PHONY : wzfile.c.obj
 
 wzfile.i: wzfile.c.i
@@ -1102,7 +1102,7 @@ wzfile.i: wzfile.c.i
 
 # target to preprocess a source file
 wzfile.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wzfile.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wzfile.c.i
 .PHONY : wzfile.c.i
 
 wzfile.s: wzfile.c.s
@@ -1110,7 +1110,7 @@ wzfile.s: wzfile.c.s
 
 # target to generate assembly for a file
 wzfile.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wzfile.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/wzfile.c.s
 .PHONY : wzfile.c.s
 
 # Help Target
@@ -1256,6 +1256,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

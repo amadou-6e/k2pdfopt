@@ -52,10 +52,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt
+CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build
+CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build
 
 # Include any dependencies generated for this target.
 include k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/depend.make
@@ -73,423 +73,423 @@ k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/codegen:
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/bmpregion.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/bmpregion.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj -MF CMakeFiles\k2pdfoptlib.dir\bmpregion.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\bmpregion.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\bmpregion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj -MF CMakeFiles\k2pdfoptlib.dir\bmpregion.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\bmpregion.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\bmpregion.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/bmpregion.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\bmpregion.c > CMakeFiles\k2pdfoptlib.dir\bmpregion.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\bmpregion.c > CMakeFiles\k2pdfoptlib.dir\bmpregion.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/bmpregion.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\bmpregion.c -o CMakeFiles\k2pdfoptlib.dir\bmpregion.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\bmpregion.c -o CMakeFiles\k2pdfoptlib.dir\bmpregion.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/devprofile.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/devprofile.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj -MF CMakeFiles\k2pdfoptlib.dir\devprofile.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\devprofile.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\devprofile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj -MF CMakeFiles\k2pdfoptlib.dir\devprofile.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\devprofile.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\devprofile.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/devprofile.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\devprofile.c > CMakeFiles\k2pdfoptlib.dir\devprofile.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\devprofile.c > CMakeFiles\k2pdfoptlib.dir\devprofile.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/devprofile.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\devprofile.c -o CMakeFiles\k2pdfoptlib.dir\devprofile.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\devprofile.c -o CMakeFiles\k2pdfoptlib.dir\devprofile.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2bmp.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2bmp.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2bmp.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2bmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2bmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2bmp.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2bmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2bmp.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2bmp.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2bmp.c > CMakeFiles\k2pdfoptlib.dir\k2bmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2bmp.c > CMakeFiles\k2pdfoptlib.dir\k2bmp.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2bmp.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2bmp.c -o CMakeFiles\k2pdfoptlib.dir\k2bmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2bmp.c -o CMakeFiles\k2pdfoptlib.dir\k2bmp.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2file.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2file.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2file.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2file.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2file.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2file.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2file.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2file.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2file.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2file.c > CMakeFiles\k2pdfoptlib.dir\k2file.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2file.c > CMakeFiles\k2pdfoptlib.dir\k2file.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2file.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2file.c -o CMakeFiles\k2pdfoptlib.dir\k2file.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2file.c -o CMakeFiles\k2pdfoptlib.dir\k2file.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2files.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2files.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2files.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2files.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2files.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2files.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2files.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2files.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2files.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2files.c > CMakeFiles\k2pdfoptlib.dir\k2files.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2files.c > CMakeFiles\k2pdfoptlib.dir\k2files.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2files.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2files.c -o CMakeFiles\k2pdfoptlib.dir\k2files.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2files.c -o CMakeFiles\k2pdfoptlib.dir\k2files.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2gui.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2gui.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2gui.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui.c > CMakeFiles\k2pdfoptlib.dir\k2gui.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui.c > CMakeFiles\k2pdfoptlib.dir\k2gui.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2gui.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui.c -o CMakeFiles\k2pdfoptlib.dir\k2gui.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui.c -o CMakeFiles\k2pdfoptlib.dir\k2gui.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2gui_cbox.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2gui_cbox.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_cbox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_cbox.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_cbox.c > CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_cbox.c > CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_cbox.c -o CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_cbox.c -o CMakeFiles\k2pdfoptlib.dir\k2gui_cbox.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2gui_osdep.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2gui_osdep.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_osdep.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_osdep.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_osdep.c > CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_osdep.c > CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_osdep.c -o CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_osdep.c -o CMakeFiles\k2pdfoptlib.dir\k2gui_osdep.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2gui_overlay.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2gui_overlay.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_overlay.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_overlay.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_overlay.c > CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_overlay.c > CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2gui_overlay.c -o CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2gui_overlay.c -o CMakeFiles\k2pdfoptlib.dir\k2gui_overlay.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2mark.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2mark.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2mark.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2mark.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2mark.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2mark.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2mark.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2mark.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2mark.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2mark.c > CMakeFiles\k2pdfoptlib.dir\k2mark.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2mark.c > CMakeFiles\k2pdfoptlib.dir\k2mark.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2mark.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2mark.c -o CMakeFiles\k2pdfoptlib.dir\k2mark.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2mark.c -o CMakeFiles\k2pdfoptlib.dir\k2mark.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2master.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2master.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2master.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2master.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2master.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2master.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2master.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2master.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2master.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2master.c > CMakeFiles\k2pdfoptlib.dir\k2master.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2master.c > CMakeFiles\k2pdfoptlib.dir\k2master.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2master.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2master.c -o CMakeFiles\k2pdfoptlib.dir\k2master.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2master.c -o CMakeFiles\k2pdfoptlib.dir\k2master.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2mem.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2mem.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2mem.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2mem.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2mem.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2mem.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2mem.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2mem.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2mem.c > CMakeFiles\k2pdfoptlib.dir\k2mem.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2mem.c > CMakeFiles\k2pdfoptlib.dir\k2mem.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2mem.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2mem.c -o CMakeFiles\k2pdfoptlib.dir\k2mem.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2mem.c -o CMakeFiles\k2pdfoptlib.dir\k2mem.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2menu.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2menu.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2menu.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2menu.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2menu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2menu.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2menu.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2menu.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2menu.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2menu.c > CMakeFiles\k2pdfoptlib.dir\k2menu.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2menu.c > CMakeFiles\k2pdfoptlib.dir\k2menu.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2menu.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2menu.c -o CMakeFiles\k2pdfoptlib.dir\k2menu.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2menu.c -o CMakeFiles\k2pdfoptlib.dir\k2menu.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2ocr.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2ocr.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2ocr.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2ocr.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2ocr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2ocr.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2ocr.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2ocr.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2ocr.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2ocr.c > CMakeFiles\k2pdfoptlib.dir\k2ocr.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2ocr.c > CMakeFiles\k2pdfoptlib.dir\k2ocr.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2ocr.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2ocr.c -o CMakeFiles\k2pdfoptlib.dir\k2ocr.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2ocr.c -o CMakeFiles\k2pdfoptlib.dir\k2ocr.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2parsecmd.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2parsecmd.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2parsecmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2parsecmd.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2parsecmd.c > CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2parsecmd.c > CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2parsecmd.c -o CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2parsecmd.c -o CMakeFiles\k2pdfoptlib.dir\k2parsecmd.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2proc.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2proc.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2proc.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2proc.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2proc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2proc.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2proc.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2proc.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2proc.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2proc.c > CMakeFiles\k2pdfoptlib.dir\k2proc.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2proc.c > CMakeFiles\k2pdfoptlib.dir\k2proc.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2proc.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2proc.c -o CMakeFiles\k2pdfoptlib.dir\k2proc.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2proc.c -o CMakeFiles\k2pdfoptlib.dir\k2proc.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2publish.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2publish.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2publish.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2publish.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2publish.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2publish.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2publish.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2publish.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2publish.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2publish.c > CMakeFiles\k2pdfoptlib.dir\k2publish.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2publish.c > CMakeFiles\k2pdfoptlib.dir\k2publish.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2publish.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2publish.c -o CMakeFiles\k2pdfoptlib.dir\k2publish.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2publish.c -o CMakeFiles\k2pdfoptlib.dir\k2publish.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2settings.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2settings.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2settings.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2settings.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2settings.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2settings.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2settings.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2settings.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2settings.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2settings.c > CMakeFiles\k2pdfoptlib.dir\k2settings.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2settings.c > CMakeFiles\k2pdfoptlib.dir\k2settings.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2settings.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2settings.c -o CMakeFiles\k2pdfoptlib.dir\k2settings.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2settings.c -o CMakeFiles\k2pdfoptlib.dir\k2settings.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2settings2cmd.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2settings2cmd.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2settings2cmd.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2settings2cmd.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2settings2cmd.c > CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2settings2cmd.c > CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2settings2cmd.c -o CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2settings2cmd.c -o CMakeFiles\k2pdfoptlib.dir\k2settings2cmd.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2sys.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2sys.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2sys.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2sys.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2sys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2sys.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2sys.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2sys.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2sys.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2sys.c > CMakeFiles\k2pdfoptlib.dir\k2sys.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2sys.c > CMakeFiles\k2pdfoptlib.dir\k2sys.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2sys.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2sys.c -o CMakeFiles\k2pdfoptlib.dir\k2sys.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2sys.c -o CMakeFiles\k2pdfoptlib.dir\k2sys.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2usage.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2usage.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2usage.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2usage.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2usage.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2usage.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2usage.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2usage.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2usage.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2usage.c > CMakeFiles\k2pdfoptlib.dir\k2usage.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2usage.c > CMakeFiles\k2pdfoptlib.dir\k2usage.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2usage.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2usage.c -o CMakeFiles\k2pdfoptlib.dir\k2usage.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2usage.c -o CMakeFiles\k2pdfoptlib.dir\k2usage.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/k2version.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/k2version.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2version.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2version.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2version.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj -MF CMakeFiles\k2pdfoptlib.dir\k2version.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\k2version.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2version.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/k2version.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2version.c > CMakeFiles\k2pdfoptlib.dir\k2version.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2version.c > CMakeFiles\k2pdfoptlib.dir\k2version.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/k2version.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\k2version.c -o CMakeFiles\k2pdfoptlib.dir\k2version.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\k2version.c -o CMakeFiles\k2pdfoptlib.dir\k2version.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/pagelist.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/pagelist.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj -MF CMakeFiles\k2pdfoptlib.dir\pagelist.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\pagelist.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\pagelist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj -MF CMakeFiles\k2pdfoptlib.dir\pagelist.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\pagelist.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\pagelist.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/pagelist.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\pagelist.c > CMakeFiles\k2pdfoptlib.dir\pagelist.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\pagelist.c > CMakeFiles\k2pdfoptlib.dir\pagelist.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/pagelist.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\pagelist.c -o CMakeFiles\k2pdfoptlib.dir\pagelist.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\pagelist.c -o CMakeFiles\k2pdfoptlib.dir\pagelist.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/pageregions.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/pageregions.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj -MF CMakeFiles\k2pdfoptlib.dir\pageregions.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\pageregions.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\pageregions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj -MF CMakeFiles\k2pdfoptlib.dir\pageregions.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\pageregions.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\pageregions.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/pageregions.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\pageregions.c > CMakeFiles\k2pdfoptlib.dir\pageregions.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\pageregions.c > CMakeFiles\k2pdfoptlib.dir\pageregions.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/pageregions.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\pageregions.c -o CMakeFiles\k2pdfoptlib.dir\pageregions.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\pageregions.c -o CMakeFiles\k2pdfoptlib.dir\pageregions.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/textrows.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/textrows.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj -MF CMakeFiles\k2pdfoptlib.dir\textrows.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\textrows.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\textrows.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj -MF CMakeFiles\k2pdfoptlib.dir\textrows.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\textrows.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\textrows.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/textrows.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\textrows.c > CMakeFiles\k2pdfoptlib.dir\textrows.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\textrows.c > CMakeFiles\k2pdfoptlib.dir\textrows.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/textrows.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\textrows.c -o CMakeFiles\k2pdfoptlib.dir\textrows.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\textrows.c -o CMakeFiles\k2pdfoptlib.dir\textrows.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/textwords.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/textwords.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj -MF CMakeFiles\k2pdfoptlib.dir\textwords.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\textwords.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\textwords.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj -MF CMakeFiles\k2pdfoptlib.dir\textwords.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\textwords.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\textwords.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/textwords.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\textwords.c > CMakeFiles\k2pdfoptlib.dir\textwords.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\textwords.c > CMakeFiles\k2pdfoptlib.dir\textwords.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/textwords.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\textwords.c -o CMakeFiles\k2pdfoptlib.dir\textwords.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\textwords.c -o CMakeFiles\k2pdfoptlib.dir\textwords.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/userinput.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/userinput.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj -MF CMakeFiles\k2pdfoptlib.dir\userinput.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\userinput.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\userinput.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj -MF CMakeFiles\k2pdfoptlib.dir\userinput.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\userinput.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\userinput.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/userinput.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\userinput.c > CMakeFiles\k2pdfoptlib.dir\userinput.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\userinput.c > CMakeFiles\k2pdfoptlib.dir\userinput.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/userinput.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\userinput.c -o CMakeFiles\k2pdfoptlib.dir\userinput.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\userinput.c -o CMakeFiles\k2pdfoptlib.dir\userinput.c.s
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/flags.make
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/includes_C.rsp
-k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/k2pdfoptlib/wrapbmp.c
+k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/k2pdfoptlib/wrapbmp.c
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj -MF CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\wrapbmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj -MF CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.obj.d -o CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\wrapbmp.c
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\wrapbmp.c > CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\wrapbmp.c > CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.i
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib\wrapbmp.c -o CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib\wrapbmp.c -o CMakeFiles\k2pdfoptlib.dir\wrapbmp.c.s
 
 # Object files for target k2pdfoptlib
 k2pdfoptlib_OBJECTS = \
@@ -555,19 +555,19 @@ k2pdfoptlib/libk2pdfoptlib.a: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c
 k2pdfoptlib/libk2pdfoptlib.a: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj
 k2pdfoptlib/libk2pdfoptlib.a: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/build.make
 k2pdfoptlib/libk2pdfoptlib.a: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C static library libk2pdfoptlib.a"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && $(CMAKE_COMMAND) -P CMakeFiles\k2pdfoptlib.dir\cmake_clean_target.cmake
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\k2pdfoptlib.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Linking C static library libk2pdfoptlib.a"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && $(CMAKE_COMMAND) -P CMakeFiles\k2pdfoptlib.dir\cmake_clean_target.cmake
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\k2pdfoptlib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/build: k2pdfoptlib/libk2pdfoptlib.a
 .PHONY : k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/build
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/clean:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib && $(CMAKE_COMMAND) -P CMakeFiles\k2pdfoptlib.dir\cmake_clean.cmake
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib && $(CMAKE_COMMAND) -P CMakeFiles\k2pdfoptlib.dir\cmake_clean.cmake
 .PHONY : k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/clean
 
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\k2pdfoptlib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\DependInfo.cmake "--color=$(COLOR)" k2pdfoptlib
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\k2pdfoptlib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\DependInfo.cmake "--color=$(COLOR)" k2pdfoptlib
 .PHONY : k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/depend
 

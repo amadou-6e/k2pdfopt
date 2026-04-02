@@ -56,10 +56,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt
+CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build
+CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,14 +86,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\k2pdfoptlib\\CMakeFiles\progress.marks
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 0
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\k2pdfoptlib\\CMakeFiles\progress.marks
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/clean
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/clean
 .PHONY : clean
 
 # The main clean target
@@ -102,22 +102,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/preinstall
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/preinstall
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule
 .PHONY : k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule
 
 # Convenience name for target.
@@ -126,7 +126,7 @@ k2pdfoptlib: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule
 
 # fast build rule for target.
 k2pdfoptlib/fast:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/build
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/build
 .PHONY : k2pdfoptlib/fast
 
 bmpregion.obj: bmpregion.c.obj
@@ -134,7 +134,7 @@ bmpregion.obj: bmpregion.c.obj
 
 # target to build an object file
 bmpregion.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.obj
 .PHONY : bmpregion.c.obj
 
 bmpregion.i: bmpregion.c.i
@@ -142,7 +142,7 @@ bmpregion.i: bmpregion.c.i
 
 # target to preprocess a source file
 bmpregion.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.i
 .PHONY : bmpregion.c.i
 
 bmpregion.s: bmpregion.c.s
@@ -150,7 +150,7 @@ bmpregion.s: bmpregion.c.s
 
 # target to generate assembly for a file
 bmpregion.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/bmpregion.c.s
 .PHONY : bmpregion.c.s
 
 devprofile.obj: devprofile.c.obj
@@ -158,7 +158,7 @@ devprofile.obj: devprofile.c.obj
 
 # target to build an object file
 devprofile.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.obj
 .PHONY : devprofile.c.obj
 
 devprofile.i: devprofile.c.i
@@ -166,7 +166,7 @@ devprofile.i: devprofile.c.i
 
 # target to preprocess a source file
 devprofile.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.i
 .PHONY : devprofile.c.i
 
 devprofile.s: devprofile.c.s
@@ -174,7 +174,7 @@ devprofile.s: devprofile.c.s
 
 # target to generate assembly for a file
 devprofile.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/devprofile.c.s
 .PHONY : devprofile.c.s
 
 k2bmp.obj: k2bmp.c.obj
@@ -182,7 +182,7 @@ k2bmp.obj: k2bmp.c.obj
 
 # target to build an object file
 k2bmp.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.obj
 .PHONY : k2bmp.c.obj
 
 k2bmp.i: k2bmp.c.i
@@ -190,7 +190,7 @@ k2bmp.i: k2bmp.c.i
 
 # target to preprocess a source file
 k2bmp.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.i
 .PHONY : k2bmp.c.i
 
 k2bmp.s: k2bmp.c.s
@@ -198,7 +198,7 @@ k2bmp.s: k2bmp.c.s
 
 # target to generate assembly for a file
 k2bmp.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2bmp.c.s
 .PHONY : k2bmp.c.s
 
 k2file.obj: k2file.c.obj
@@ -206,7 +206,7 @@ k2file.obj: k2file.c.obj
 
 # target to build an object file
 k2file.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.obj
 .PHONY : k2file.c.obj
 
 k2file.i: k2file.c.i
@@ -214,7 +214,7 @@ k2file.i: k2file.c.i
 
 # target to preprocess a source file
 k2file.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.i
 .PHONY : k2file.c.i
 
 k2file.s: k2file.c.s
@@ -222,7 +222,7 @@ k2file.s: k2file.c.s
 
 # target to generate assembly for a file
 k2file.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2file.c.s
 .PHONY : k2file.c.s
 
 k2files.obj: k2files.c.obj
@@ -230,7 +230,7 @@ k2files.obj: k2files.c.obj
 
 # target to build an object file
 k2files.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.obj
 .PHONY : k2files.c.obj
 
 k2files.i: k2files.c.i
@@ -238,7 +238,7 @@ k2files.i: k2files.c.i
 
 # target to preprocess a source file
 k2files.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.i
 .PHONY : k2files.c.i
 
 k2files.s: k2files.c.s
@@ -246,7 +246,7 @@ k2files.s: k2files.c.s
 
 # target to generate assembly for a file
 k2files.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2files.c.s
 .PHONY : k2files.c.s
 
 k2gui.obj: k2gui.c.obj
@@ -254,7 +254,7 @@ k2gui.obj: k2gui.c.obj
 
 # target to build an object file
 k2gui.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.obj
 .PHONY : k2gui.c.obj
 
 k2gui.i: k2gui.c.i
@@ -262,7 +262,7 @@ k2gui.i: k2gui.c.i
 
 # target to preprocess a source file
 k2gui.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.i
 .PHONY : k2gui.c.i
 
 k2gui.s: k2gui.c.s
@@ -270,7 +270,7 @@ k2gui.s: k2gui.c.s
 
 # target to generate assembly for a file
 k2gui.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui.c.s
 .PHONY : k2gui.c.s
 
 k2gui_cbox.obj: k2gui_cbox.c.obj
@@ -278,7 +278,7 @@ k2gui_cbox.obj: k2gui_cbox.c.obj
 
 # target to build an object file
 k2gui_cbox.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.obj
 .PHONY : k2gui_cbox.c.obj
 
 k2gui_cbox.i: k2gui_cbox.c.i
@@ -286,7 +286,7 @@ k2gui_cbox.i: k2gui_cbox.c.i
 
 # target to preprocess a source file
 k2gui_cbox.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.i
 .PHONY : k2gui_cbox.c.i
 
 k2gui_cbox.s: k2gui_cbox.c.s
@@ -294,7 +294,7 @@ k2gui_cbox.s: k2gui_cbox.c.s
 
 # target to generate assembly for a file
 k2gui_cbox.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_cbox.c.s
 .PHONY : k2gui_cbox.c.s
 
 k2gui_osdep.obj: k2gui_osdep.c.obj
@@ -302,7 +302,7 @@ k2gui_osdep.obj: k2gui_osdep.c.obj
 
 # target to build an object file
 k2gui_osdep.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.obj
 .PHONY : k2gui_osdep.c.obj
 
 k2gui_osdep.i: k2gui_osdep.c.i
@@ -310,7 +310,7 @@ k2gui_osdep.i: k2gui_osdep.c.i
 
 # target to preprocess a source file
 k2gui_osdep.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.i
 .PHONY : k2gui_osdep.c.i
 
 k2gui_osdep.s: k2gui_osdep.c.s
@@ -318,7 +318,7 @@ k2gui_osdep.s: k2gui_osdep.c.s
 
 # target to generate assembly for a file
 k2gui_osdep.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_osdep.c.s
 .PHONY : k2gui_osdep.c.s
 
 k2gui_overlay.obj: k2gui_overlay.c.obj
@@ -326,7 +326,7 @@ k2gui_overlay.obj: k2gui_overlay.c.obj
 
 # target to build an object file
 k2gui_overlay.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.obj
 .PHONY : k2gui_overlay.c.obj
 
 k2gui_overlay.i: k2gui_overlay.c.i
@@ -334,7 +334,7 @@ k2gui_overlay.i: k2gui_overlay.c.i
 
 # target to preprocess a source file
 k2gui_overlay.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.i
 .PHONY : k2gui_overlay.c.i
 
 k2gui_overlay.s: k2gui_overlay.c.s
@@ -342,7 +342,7 @@ k2gui_overlay.s: k2gui_overlay.c.s
 
 # target to generate assembly for a file
 k2gui_overlay.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2gui_overlay.c.s
 .PHONY : k2gui_overlay.c.s
 
 k2mark.obj: k2mark.c.obj
@@ -350,7 +350,7 @@ k2mark.obj: k2mark.c.obj
 
 # target to build an object file
 k2mark.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.obj
 .PHONY : k2mark.c.obj
 
 k2mark.i: k2mark.c.i
@@ -358,7 +358,7 @@ k2mark.i: k2mark.c.i
 
 # target to preprocess a source file
 k2mark.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.i
 .PHONY : k2mark.c.i
 
 k2mark.s: k2mark.c.s
@@ -366,7 +366,7 @@ k2mark.s: k2mark.c.s
 
 # target to generate assembly for a file
 k2mark.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mark.c.s
 .PHONY : k2mark.c.s
 
 k2master.obj: k2master.c.obj
@@ -374,7 +374,7 @@ k2master.obj: k2master.c.obj
 
 # target to build an object file
 k2master.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.obj
 .PHONY : k2master.c.obj
 
 k2master.i: k2master.c.i
@@ -382,7 +382,7 @@ k2master.i: k2master.c.i
 
 # target to preprocess a source file
 k2master.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.i
 .PHONY : k2master.c.i
 
 k2master.s: k2master.c.s
@@ -390,7 +390,7 @@ k2master.s: k2master.c.s
 
 # target to generate assembly for a file
 k2master.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2master.c.s
 .PHONY : k2master.c.s
 
 k2mem.obj: k2mem.c.obj
@@ -398,7 +398,7 @@ k2mem.obj: k2mem.c.obj
 
 # target to build an object file
 k2mem.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.obj
 .PHONY : k2mem.c.obj
 
 k2mem.i: k2mem.c.i
@@ -406,7 +406,7 @@ k2mem.i: k2mem.c.i
 
 # target to preprocess a source file
 k2mem.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.i
 .PHONY : k2mem.c.i
 
 k2mem.s: k2mem.c.s
@@ -414,7 +414,7 @@ k2mem.s: k2mem.c.s
 
 # target to generate assembly for a file
 k2mem.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2mem.c.s
 .PHONY : k2mem.c.s
 
 k2menu.obj: k2menu.c.obj
@@ -422,7 +422,7 @@ k2menu.obj: k2menu.c.obj
 
 # target to build an object file
 k2menu.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.obj
 .PHONY : k2menu.c.obj
 
 k2menu.i: k2menu.c.i
@@ -430,7 +430,7 @@ k2menu.i: k2menu.c.i
 
 # target to preprocess a source file
 k2menu.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.i
 .PHONY : k2menu.c.i
 
 k2menu.s: k2menu.c.s
@@ -438,7 +438,7 @@ k2menu.s: k2menu.c.s
 
 # target to generate assembly for a file
 k2menu.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2menu.c.s
 .PHONY : k2menu.c.s
 
 k2ocr.obj: k2ocr.c.obj
@@ -446,7 +446,7 @@ k2ocr.obj: k2ocr.c.obj
 
 # target to build an object file
 k2ocr.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.obj
 .PHONY : k2ocr.c.obj
 
 k2ocr.i: k2ocr.c.i
@@ -454,7 +454,7 @@ k2ocr.i: k2ocr.c.i
 
 # target to preprocess a source file
 k2ocr.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.i
 .PHONY : k2ocr.c.i
 
 k2ocr.s: k2ocr.c.s
@@ -462,7 +462,7 @@ k2ocr.s: k2ocr.c.s
 
 # target to generate assembly for a file
 k2ocr.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2ocr.c.s
 .PHONY : k2ocr.c.s
 
 k2parsecmd.obj: k2parsecmd.c.obj
@@ -470,7 +470,7 @@ k2parsecmd.obj: k2parsecmd.c.obj
 
 # target to build an object file
 k2parsecmd.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.obj
 .PHONY : k2parsecmd.c.obj
 
 k2parsecmd.i: k2parsecmd.c.i
@@ -478,7 +478,7 @@ k2parsecmd.i: k2parsecmd.c.i
 
 # target to preprocess a source file
 k2parsecmd.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.i
 .PHONY : k2parsecmd.c.i
 
 k2parsecmd.s: k2parsecmd.c.s
@@ -486,7 +486,7 @@ k2parsecmd.s: k2parsecmd.c.s
 
 # target to generate assembly for a file
 k2parsecmd.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2parsecmd.c.s
 .PHONY : k2parsecmd.c.s
 
 k2proc.obj: k2proc.c.obj
@@ -494,7 +494,7 @@ k2proc.obj: k2proc.c.obj
 
 # target to build an object file
 k2proc.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.obj
 .PHONY : k2proc.c.obj
 
 k2proc.i: k2proc.c.i
@@ -502,7 +502,7 @@ k2proc.i: k2proc.c.i
 
 # target to preprocess a source file
 k2proc.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.i
 .PHONY : k2proc.c.i
 
 k2proc.s: k2proc.c.s
@@ -510,7 +510,7 @@ k2proc.s: k2proc.c.s
 
 # target to generate assembly for a file
 k2proc.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2proc.c.s
 .PHONY : k2proc.c.s
 
 k2publish.obj: k2publish.c.obj
@@ -518,7 +518,7 @@ k2publish.obj: k2publish.c.obj
 
 # target to build an object file
 k2publish.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.obj
 .PHONY : k2publish.c.obj
 
 k2publish.i: k2publish.c.i
@@ -526,7 +526,7 @@ k2publish.i: k2publish.c.i
 
 # target to preprocess a source file
 k2publish.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.i
 .PHONY : k2publish.c.i
 
 k2publish.s: k2publish.c.s
@@ -534,7 +534,7 @@ k2publish.s: k2publish.c.s
 
 # target to generate assembly for a file
 k2publish.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2publish.c.s
 .PHONY : k2publish.c.s
 
 k2settings.obj: k2settings.c.obj
@@ -542,7 +542,7 @@ k2settings.obj: k2settings.c.obj
 
 # target to build an object file
 k2settings.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.obj
 .PHONY : k2settings.c.obj
 
 k2settings.i: k2settings.c.i
@@ -550,7 +550,7 @@ k2settings.i: k2settings.c.i
 
 # target to preprocess a source file
 k2settings.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.i
 .PHONY : k2settings.c.i
 
 k2settings.s: k2settings.c.s
@@ -558,7 +558,7 @@ k2settings.s: k2settings.c.s
 
 # target to generate assembly for a file
 k2settings.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings.c.s
 .PHONY : k2settings.c.s
 
 k2settings2cmd.obj: k2settings2cmd.c.obj
@@ -566,7 +566,7 @@ k2settings2cmd.obj: k2settings2cmd.c.obj
 
 # target to build an object file
 k2settings2cmd.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.obj
 .PHONY : k2settings2cmd.c.obj
 
 k2settings2cmd.i: k2settings2cmd.c.i
@@ -574,7 +574,7 @@ k2settings2cmd.i: k2settings2cmd.c.i
 
 # target to preprocess a source file
 k2settings2cmd.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.i
 .PHONY : k2settings2cmd.c.i
 
 k2settings2cmd.s: k2settings2cmd.c.s
@@ -582,7 +582,7 @@ k2settings2cmd.s: k2settings2cmd.c.s
 
 # target to generate assembly for a file
 k2settings2cmd.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2settings2cmd.c.s
 .PHONY : k2settings2cmd.c.s
 
 k2sys.obj: k2sys.c.obj
@@ -590,7 +590,7 @@ k2sys.obj: k2sys.c.obj
 
 # target to build an object file
 k2sys.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.obj
 .PHONY : k2sys.c.obj
 
 k2sys.i: k2sys.c.i
@@ -598,7 +598,7 @@ k2sys.i: k2sys.c.i
 
 # target to preprocess a source file
 k2sys.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.i
 .PHONY : k2sys.c.i
 
 k2sys.s: k2sys.c.s
@@ -606,7 +606,7 @@ k2sys.s: k2sys.c.s
 
 # target to generate assembly for a file
 k2sys.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2sys.c.s
 .PHONY : k2sys.c.s
 
 k2usage.obj: k2usage.c.obj
@@ -614,7 +614,7 @@ k2usage.obj: k2usage.c.obj
 
 # target to build an object file
 k2usage.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.obj
 .PHONY : k2usage.c.obj
 
 k2usage.i: k2usage.c.i
@@ -622,7 +622,7 @@ k2usage.i: k2usage.c.i
 
 # target to preprocess a source file
 k2usage.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.i
 .PHONY : k2usage.c.i
 
 k2usage.s: k2usage.c.s
@@ -630,7 +630,7 @@ k2usage.s: k2usage.c.s
 
 # target to generate assembly for a file
 k2usage.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2usage.c.s
 .PHONY : k2usage.c.s
 
 k2version.obj: k2version.c.obj
@@ -638,7 +638,7 @@ k2version.obj: k2version.c.obj
 
 # target to build an object file
 k2version.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.obj
 .PHONY : k2version.c.obj
 
 k2version.i: k2version.c.i
@@ -646,7 +646,7 @@ k2version.i: k2version.c.i
 
 # target to preprocess a source file
 k2version.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.i
 .PHONY : k2version.c.i
 
 k2version.s: k2version.c.s
@@ -654,7 +654,7 @@ k2version.s: k2version.c.s
 
 # target to generate assembly for a file
 k2version.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/k2version.c.s
 .PHONY : k2version.c.s
 
 pagelist.obj: pagelist.c.obj
@@ -662,7 +662,7 @@ pagelist.obj: pagelist.c.obj
 
 # target to build an object file
 pagelist.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.obj
 .PHONY : pagelist.c.obj
 
 pagelist.i: pagelist.c.i
@@ -670,7 +670,7 @@ pagelist.i: pagelist.c.i
 
 # target to preprocess a source file
 pagelist.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.i
 .PHONY : pagelist.c.i
 
 pagelist.s: pagelist.c.s
@@ -678,7 +678,7 @@ pagelist.s: pagelist.c.s
 
 # target to generate assembly for a file
 pagelist.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pagelist.c.s
 .PHONY : pagelist.c.s
 
 pageregions.obj: pageregions.c.obj
@@ -686,7 +686,7 @@ pageregions.obj: pageregions.c.obj
 
 # target to build an object file
 pageregions.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.obj
 .PHONY : pageregions.c.obj
 
 pageregions.i: pageregions.c.i
@@ -694,7 +694,7 @@ pageregions.i: pageregions.c.i
 
 # target to preprocess a source file
 pageregions.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.i
 .PHONY : pageregions.c.i
 
 pageregions.s: pageregions.c.s
@@ -702,7 +702,7 @@ pageregions.s: pageregions.c.s
 
 # target to generate assembly for a file
 pageregions.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/pageregions.c.s
 .PHONY : pageregions.c.s
 
 textrows.obj: textrows.c.obj
@@ -710,7 +710,7 @@ textrows.obj: textrows.c.obj
 
 # target to build an object file
 textrows.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.obj
 .PHONY : textrows.c.obj
 
 textrows.i: textrows.c.i
@@ -718,7 +718,7 @@ textrows.i: textrows.c.i
 
 # target to preprocess a source file
 textrows.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.i
 .PHONY : textrows.c.i
 
 textrows.s: textrows.c.s
@@ -726,7 +726,7 @@ textrows.s: textrows.c.s
 
 # target to generate assembly for a file
 textrows.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textrows.c.s
 .PHONY : textrows.c.s
 
 textwords.obj: textwords.c.obj
@@ -734,7 +734,7 @@ textwords.obj: textwords.c.obj
 
 # target to build an object file
 textwords.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.obj
 .PHONY : textwords.c.obj
 
 textwords.i: textwords.c.i
@@ -742,7 +742,7 @@ textwords.i: textwords.c.i
 
 # target to preprocess a source file
 textwords.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.i
 .PHONY : textwords.c.i
 
 textwords.s: textwords.c.s
@@ -750,7 +750,7 @@ textwords.s: textwords.c.s
 
 # target to generate assembly for a file
 textwords.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/textwords.c.s
 .PHONY : textwords.c.s
 
 userinput.obj: userinput.c.obj
@@ -758,7 +758,7 @@ userinput.obj: userinput.c.obj
 
 # target to build an object file
 userinput.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.obj
 .PHONY : userinput.c.obj
 
 userinput.i: userinput.c.i
@@ -766,7 +766,7 @@ userinput.i: userinput.c.i
 
 # target to preprocess a source file
 userinput.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.i
 .PHONY : userinput.c.i
 
 userinput.s: userinput.c.s
@@ -774,7 +774,7 @@ userinput.s: userinput.c.s
 
 # target to generate assembly for a file
 userinput.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/userinput.c.s
 .PHONY : userinput.c.s
 
 wrapbmp.obj: wrapbmp.c.obj
@@ -782,7 +782,7 @@ wrapbmp.obj: wrapbmp.c.obj
 
 # target to build an object file
 wrapbmp.c.obj:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.obj
 .PHONY : wrapbmp.c.obj
 
 wrapbmp.i: wrapbmp.c.i
@@ -790,7 +790,7 @@ wrapbmp.i: wrapbmp.c.i
 
 # target to preprocess a source file
 wrapbmp.c.i:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.i
 .PHONY : wrapbmp.c.i
 
 wrapbmp.s: wrapbmp.c.s
@@ -798,7 +798,7 @@ wrapbmp.s: wrapbmp.c.s
 
 # target to generate assembly for a file
 wrapbmp.c.s:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/wrapbmp.c.s
 .PHONY : wrapbmp.c.s
 
 # Help Target
@@ -905,6 +905,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

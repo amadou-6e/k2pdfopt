@@ -52,10 +52,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt
+CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build
+CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build
 
 # Include any dependencies generated for this target.
 include willuslib/CMakeFiles/willuslib.dir/depend.make
@@ -73,618 +73,618 @@ willuslib/CMakeFiles/willuslib.dir/codegen:
 
 willuslib/CMakeFiles/willuslib.dir/ansi.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/ansi.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/ansi.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/ansi.c
+willuslib/CMakeFiles/willuslib.dir/ansi.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/ansi.c
 willuslib/CMakeFiles/willuslib.dir/ansi.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object willuslib/CMakeFiles/willuslib.dir/ansi.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/ansi.c.obj -MF CMakeFiles\willuslib.dir\ansi.c.obj.d -o CMakeFiles\willuslib.dir\ansi.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ansi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object willuslib/CMakeFiles/willuslib.dir/ansi.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/ansi.c.obj -MF CMakeFiles\willuslib.dir\ansi.c.obj.d -o CMakeFiles\willuslib.dir\ansi.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ansi.c
 
 willuslib/CMakeFiles/willuslib.dir/ansi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/ansi.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ansi.c > CMakeFiles\willuslib.dir\ansi.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ansi.c > CMakeFiles\willuslib.dir\ansi.c.i
 
 willuslib/CMakeFiles/willuslib.dir/ansi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/ansi.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ansi.c -o CMakeFiles\willuslib.dir\ansi.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ansi.c -o CMakeFiles\willuslib.dir\ansi.c.s
 
 willuslib/CMakeFiles/willuslib.dir/array.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/array.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/array.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/array.c
+willuslib/CMakeFiles/willuslib.dir/array.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/array.c
 willuslib/CMakeFiles/willuslib.dir/array.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object willuslib/CMakeFiles/willuslib.dir/array.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/array.c.obj -MF CMakeFiles\willuslib.dir\array.c.obj.d -o CMakeFiles\willuslib.dir\array.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\array.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object willuslib/CMakeFiles/willuslib.dir/array.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/array.c.obj -MF CMakeFiles\willuslib.dir\array.c.obj.d -o CMakeFiles\willuslib.dir\array.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\array.c
 
 willuslib/CMakeFiles/willuslib.dir/array.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/array.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\array.c > CMakeFiles\willuslib.dir\array.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\array.c > CMakeFiles\willuslib.dir\array.c.i
 
 willuslib/CMakeFiles/willuslib.dir/array.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/array.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\array.c -o CMakeFiles\willuslib.dir\array.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\array.c -o CMakeFiles\willuslib.dir\array.c.s
 
 willuslib/CMakeFiles/willuslib.dir/bmp.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/bmp.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/bmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/bmp.c
+willuslib/CMakeFiles/willuslib.dir/bmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/bmp.c
 willuslib/CMakeFiles/willuslib.dir/bmp.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object willuslib/CMakeFiles/willuslib.dir/bmp.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/bmp.c.obj -MF CMakeFiles\willuslib.dir\bmp.c.obj.d -o CMakeFiles\willuslib.dir\bmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object willuslib/CMakeFiles/willuslib.dir/bmp.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/bmp.c.obj -MF CMakeFiles\willuslib.dir\bmp.c.obj.d -o CMakeFiles\willuslib.dir\bmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmp.c
 
 willuslib/CMakeFiles/willuslib.dir/bmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/bmp.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmp.c > CMakeFiles\willuslib.dir\bmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmp.c > CMakeFiles\willuslib.dir\bmp.c.i
 
 willuslib/CMakeFiles/willuslib.dir/bmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/bmp.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmp.c -o CMakeFiles\willuslib.dir\bmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmp.c -o CMakeFiles\willuslib.dir\bmp.c.s
 
 willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/bmpdjvu.c
+willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/bmpdjvu.c
 willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj -MF CMakeFiles\willuslib.dir\bmpdjvu.c.obj.d -o CMakeFiles\willuslib.dir\bmpdjvu.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmpdjvu.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.obj -MF CMakeFiles\willuslib.dir\bmpdjvu.c.obj.d -o CMakeFiles\willuslib.dir\bmpdjvu.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmpdjvu.c
 
 willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/bmpdjvu.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmpdjvu.c > CMakeFiles\willuslib.dir\bmpdjvu.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmpdjvu.c > CMakeFiles\willuslib.dir\bmpdjvu.c.i
 
 willuslib/CMakeFiles/willuslib.dir/bmpdjvu.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/bmpdjvu.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmpdjvu.c -o CMakeFiles\willuslib.dir\bmpdjvu.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmpdjvu.c -o CMakeFiles\willuslib.dir\bmpdjvu.c.s
 
 willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/bmpmupdf.c
+willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/bmpmupdf.c
 willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj -MF CMakeFiles\willuslib.dir\bmpmupdf.c.obj.d -o CMakeFiles\willuslib.dir\bmpmupdf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmpmupdf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.obj -MF CMakeFiles\willuslib.dir\bmpmupdf.c.obj.d -o CMakeFiles\willuslib.dir\bmpmupdf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmpmupdf.c
 
 willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/bmpmupdf.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmpmupdf.c > CMakeFiles\willuslib.dir\bmpmupdf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmpmupdf.c > CMakeFiles\willuslib.dir\bmpmupdf.c.i
 
 willuslib/CMakeFiles/willuslib.dir/bmpmupdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/bmpmupdf.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\bmpmupdf.c -o CMakeFiles\willuslib.dir\bmpmupdf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\bmpmupdf.c -o CMakeFiles\willuslib.dir\bmpmupdf.c.s
 
 willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/dtcompress.c
+willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/dtcompress.c
 willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj -MF CMakeFiles\willuslib.dir\dtcompress.c.obj.d -o CMakeFiles\willuslib.dir\dtcompress.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\dtcompress.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/dtcompress.c.obj -MF CMakeFiles\willuslib.dir\dtcompress.c.obj.d -o CMakeFiles\willuslib.dir\dtcompress.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\dtcompress.c
 
 willuslib/CMakeFiles/willuslib.dir/dtcompress.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/dtcompress.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\dtcompress.c > CMakeFiles\willuslib.dir\dtcompress.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\dtcompress.c > CMakeFiles\willuslib.dir\dtcompress.c.i
 
 willuslib/CMakeFiles/willuslib.dir/dtcompress.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/dtcompress.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\dtcompress.c -o CMakeFiles\willuslib.dir\dtcompress.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\dtcompress.c -o CMakeFiles\willuslib.dir\dtcompress.c.s
 
 willuslib/CMakeFiles/willuslib.dir/filelist.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/filelist.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/filelist.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/filelist.c
+willuslib/CMakeFiles/willuslib.dir/filelist.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/filelist.c
 willuslib/CMakeFiles/willuslib.dir/filelist.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object willuslib/CMakeFiles/willuslib.dir/filelist.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/filelist.c.obj -MF CMakeFiles\willuslib.dir\filelist.c.obj.d -o CMakeFiles\willuslib.dir\filelist.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\filelist.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object willuslib/CMakeFiles/willuslib.dir/filelist.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/filelist.c.obj -MF CMakeFiles\willuslib.dir\filelist.c.obj.d -o CMakeFiles\willuslib.dir\filelist.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\filelist.c
 
 willuslib/CMakeFiles/willuslib.dir/filelist.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/filelist.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\filelist.c > CMakeFiles\willuslib.dir\filelist.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\filelist.c > CMakeFiles\willuslib.dir\filelist.c.i
 
 willuslib/CMakeFiles/willuslib.dir/filelist.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/filelist.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\filelist.c -o CMakeFiles\willuslib.dir\filelist.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\filelist.c -o CMakeFiles\willuslib.dir\filelist.c.s
 
 willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/fontdata.c
+willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/fontdata.c
 willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj -MF CMakeFiles\willuslib.dir\fontdata.c.obj.d -o CMakeFiles\willuslib.dir\fontdata.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\fontdata.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/fontdata.c.obj -MF CMakeFiles\willuslib.dir\fontdata.c.obj.d -o CMakeFiles\willuslib.dir\fontdata.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\fontdata.c
 
 willuslib/CMakeFiles/willuslib.dir/fontdata.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/fontdata.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\fontdata.c > CMakeFiles\willuslib.dir\fontdata.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\fontdata.c > CMakeFiles\willuslib.dir\fontdata.c.i
 
 willuslib/CMakeFiles/willuslib.dir/fontdata.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/fontdata.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\fontdata.c -o CMakeFiles\willuslib.dir\fontdata.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\fontdata.c -o CMakeFiles\willuslib.dir\fontdata.c.s
 
 willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/fontrender.c
+willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/fontrender.c
 willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj -MF CMakeFiles\willuslib.dir\fontrender.c.obj.d -o CMakeFiles\willuslib.dir\fontrender.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\fontrender.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/fontrender.c.obj -MF CMakeFiles\willuslib.dir\fontrender.c.obj.d -o CMakeFiles\willuslib.dir\fontrender.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\fontrender.c
 
 willuslib/CMakeFiles/willuslib.dir/fontrender.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/fontrender.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\fontrender.c > CMakeFiles\willuslib.dir\fontrender.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\fontrender.c > CMakeFiles\willuslib.dir\fontrender.c.i
 
 willuslib/CMakeFiles/willuslib.dir/fontrender.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/fontrender.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\fontrender.c -o CMakeFiles\willuslib.dir\fontrender.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\fontrender.c -o CMakeFiles\willuslib.dir\fontrender.c.s
 
 willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/gslpolyfit.c
+willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/gslpolyfit.c
 willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj -MF CMakeFiles\willuslib.dir\gslpolyfit.c.obj.d -o CMakeFiles\willuslib.dir\gslpolyfit.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\gslpolyfit.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.obj -MF CMakeFiles\willuslib.dir\gslpolyfit.c.obj.d -o CMakeFiles\willuslib.dir\gslpolyfit.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\gslpolyfit.c
 
 willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/gslpolyfit.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\gslpolyfit.c > CMakeFiles\willuslib.dir\gslpolyfit.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\gslpolyfit.c > CMakeFiles\willuslib.dir\gslpolyfit.c.i
 
 willuslib/CMakeFiles/willuslib.dir/gslpolyfit.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/gslpolyfit.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\gslpolyfit.c -o CMakeFiles\willuslib.dir\gslpolyfit.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\gslpolyfit.c -o CMakeFiles\willuslib.dir\gslpolyfit.c.s
 
 willuslib/CMakeFiles/willuslib.dir/linux.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/linux.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/linux.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/linux.c
+willuslib/CMakeFiles/willuslib.dir/linux.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/linux.c
 willuslib/CMakeFiles/willuslib.dir/linux.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object willuslib/CMakeFiles/willuslib.dir/linux.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/linux.c.obj -MF CMakeFiles\willuslib.dir\linux.c.obj.d -o CMakeFiles\willuslib.dir\linux.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\linux.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object willuslib/CMakeFiles/willuslib.dir/linux.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/linux.c.obj -MF CMakeFiles\willuslib.dir\linux.c.obj.d -o CMakeFiles\willuslib.dir\linux.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\linux.c
 
 willuslib/CMakeFiles/willuslib.dir/linux.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/linux.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\linux.c > CMakeFiles\willuslib.dir\linux.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\linux.c > CMakeFiles\willuslib.dir\linux.c.i
 
 willuslib/CMakeFiles/willuslib.dir/linux.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/linux.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\linux.c -o CMakeFiles\willuslib.dir\linux.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\linux.c -o CMakeFiles\willuslib.dir\linux.c.s
 
 willuslib/CMakeFiles/willuslib.dir/math.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/math.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/math.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/math.c
+willuslib/CMakeFiles/willuslib.dir/math.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/math.c
 willuslib/CMakeFiles/willuslib.dir/math.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object willuslib/CMakeFiles/willuslib.dir/math.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/math.c.obj -MF CMakeFiles\willuslib.dir\math.c.obj.d -o CMakeFiles\willuslib.dir\math.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\math.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object willuslib/CMakeFiles/willuslib.dir/math.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/math.c.obj -MF CMakeFiles\willuslib.dir\math.c.obj.d -o CMakeFiles\willuslib.dir\math.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\math.c
 
 willuslib/CMakeFiles/willuslib.dir/math.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/math.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\math.c > CMakeFiles\willuslib.dir\math.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\math.c > CMakeFiles\willuslib.dir\math.c.i
 
 willuslib/CMakeFiles/willuslib.dir/math.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/math.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\math.c -o CMakeFiles\willuslib.dir\math.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\math.c -o CMakeFiles\willuslib.dir\math.c.s
 
 willuslib/CMakeFiles/willuslib.dir/mem.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/mem.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/mem.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/mem.c
+willuslib/CMakeFiles/willuslib.dir/mem.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/mem.c
 willuslib/CMakeFiles/willuslib.dir/mem.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object willuslib/CMakeFiles/willuslib.dir/mem.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/mem.c.obj -MF CMakeFiles\willuslib.dir\mem.c.obj.d -o CMakeFiles\willuslib.dir\mem.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\mem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object willuslib/CMakeFiles/willuslib.dir/mem.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/mem.c.obj -MF CMakeFiles\willuslib.dir\mem.c.obj.d -o CMakeFiles\willuslib.dir\mem.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\mem.c
 
 willuslib/CMakeFiles/willuslib.dir/mem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/mem.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\mem.c > CMakeFiles\willuslib.dir\mem.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\mem.c > CMakeFiles\willuslib.dir\mem.c.i
 
 willuslib/CMakeFiles/willuslib.dir/mem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/mem.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\mem.c -o CMakeFiles\willuslib.dir\mem.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\mem.c -o CMakeFiles\willuslib.dir\mem.c.s
 
 willuslib/CMakeFiles/willuslib.dir/ocr.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/ocr.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/ocr.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/ocr.c
+willuslib/CMakeFiles/willuslib.dir/ocr.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/ocr.c
 willuslib/CMakeFiles/willuslib.dir/ocr.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object willuslib/CMakeFiles/willuslib.dir/ocr.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/ocr.c.obj -MF CMakeFiles\willuslib.dir\ocr.c.obj.d -o CMakeFiles\willuslib.dir\ocr.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ocr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object willuslib/CMakeFiles/willuslib.dir/ocr.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/ocr.c.obj -MF CMakeFiles\willuslib.dir\ocr.c.obj.d -o CMakeFiles\willuslib.dir\ocr.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ocr.c
 
 willuslib/CMakeFiles/willuslib.dir/ocr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/ocr.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ocr.c > CMakeFiles\willuslib.dir\ocr.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ocr.c > CMakeFiles\willuslib.dir\ocr.c.i
 
 willuslib/CMakeFiles/willuslib.dir/ocr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/ocr.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ocr.c -o CMakeFiles\willuslib.dir\ocr.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ocr.c -o CMakeFiles\willuslib.dir\ocr.c.s
 
 willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/ocrwords.c
+willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/ocrwords.c
 willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj -MF CMakeFiles\willuslib.dir\ocrwords.c.obj.d -o CMakeFiles\willuslib.dir\ocrwords.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ocrwords.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/ocrwords.c.obj -MF CMakeFiles\willuslib.dir\ocrwords.c.obj.d -o CMakeFiles\willuslib.dir\ocrwords.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ocrwords.c
 
 willuslib/CMakeFiles/willuslib.dir/ocrwords.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/ocrwords.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ocrwords.c > CMakeFiles\willuslib.dir\ocrwords.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ocrwords.c > CMakeFiles\willuslib.dir\ocrwords.c.i
 
 willuslib/CMakeFiles/willuslib.dir/ocrwords.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/ocrwords.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\ocrwords.c -o CMakeFiles\willuslib.dir\ocrwords.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\ocrwords.c -o CMakeFiles\willuslib.dir\ocrwords.c.s
 
 willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/pdffonts.c
+willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/pdffonts.c
 willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj -MF CMakeFiles\willuslib.dir\pdffonts.c.obj.d -o CMakeFiles\willuslib.dir\pdffonts.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\pdffonts.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/pdffonts.c.obj -MF CMakeFiles\willuslib.dir\pdffonts.c.obj.d -o CMakeFiles\willuslib.dir\pdffonts.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\pdffonts.c
 
 willuslib/CMakeFiles/willuslib.dir/pdffonts.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/pdffonts.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\pdffonts.c > CMakeFiles\willuslib.dir\pdffonts.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\pdffonts.c > CMakeFiles\willuslib.dir\pdffonts.c.i
 
 willuslib/CMakeFiles/willuslib.dir/pdffonts.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/pdffonts.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\pdffonts.c -o CMakeFiles\willuslib.dir\pdffonts.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\pdffonts.c -o CMakeFiles\willuslib.dir\pdffonts.c.s
 
 willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/pdfwrite.c
+willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/pdfwrite.c
 willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj -MF CMakeFiles\willuslib.dir\pdfwrite.c.obj.d -o CMakeFiles\willuslib.dir\pdfwrite.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\pdfwrite.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.obj -MF CMakeFiles\willuslib.dir\pdfwrite.c.obj.d -o CMakeFiles\willuslib.dir\pdfwrite.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\pdfwrite.c
 
 willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/pdfwrite.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\pdfwrite.c > CMakeFiles\willuslib.dir\pdfwrite.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\pdfwrite.c > CMakeFiles\willuslib.dir\pdfwrite.c.i
 
 willuslib/CMakeFiles/willuslib.dir/pdfwrite.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/pdfwrite.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\pdfwrite.c -o CMakeFiles\willuslib.dir\pdfwrite.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\pdfwrite.c -o CMakeFiles\willuslib.dir\pdfwrite.c.s
 
 willuslib/CMakeFiles/willuslib.dir/point2d.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/point2d.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/point2d.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/point2d.c
+willuslib/CMakeFiles/willuslib.dir/point2d.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/point2d.c
 willuslib/CMakeFiles/willuslib.dir/point2d.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object willuslib/CMakeFiles/willuslib.dir/point2d.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/point2d.c.obj -MF CMakeFiles\willuslib.dir\point2d.c.obj.d -o CMakeFiles\willuslib.dir\point2d.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\point2d.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object willuslib/CMakeFiles/willuslib.dir/point2d.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/point2d.c.obj -MF CMakeFiles\willuslib.dir\point2d.c.obj.d -o CMakeFiles\willuslib.dir\point2d.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\point2d.c
 
 willuslib/CMakeFiles/willuslib.dir/point2d.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/point2d.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\point2d.c > CMakeFiles\willuslib.dir\point2d.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\point2d.c > CMakeFiles\willuslib.dir\point2d.c.i
 
 willuslib/CMakeFiles/willuslib.dir/point2d.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/point2d.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\point2d.c -o CMakeFiles\willuslib.dir\point2d.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\point2d.c -o CMakeFiles\willuslib.dir\point2d.c.s
 
 willuslib/CMakeFiles/willuslib.dir/render.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/render.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/render.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/render.c
+willuslib/CMakeFiles/willuslib.dir/render.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/render.c
 willuslib/CMakeFiles/willuslib.dir/render.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object willuslib/CMakeFiles/willuslib.dir/render.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/render.c.obj -MF CMakeFiles\willuslib.dir\render.c.obj.d -o CMakeFiles\willuslib.dir\render.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\render.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object willuslib/CMakeFiles/willuslib.dir/render.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/render.c.obj -MF CMakeFiles\willuslib.dir\render.c.obj.d -o CMakeFiles\willuslib.dir\render.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\render.c
 
 willuslib/CMakeFiles/willuslib.dir/render.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/render.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\render.c > CMakeFiles\willuslib.dir\render.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\render.c > CMakeFiles\willuslib.dir\render.c.i
 
 willuslib/CMakeFiles/willuslib.dir/render.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/render.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\render.c -o CMakeFiles\willuslib.dir\render.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\render.c -o CMakeFiles\willuslib.dir\render.c.s
 
 willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/strbuf.c
+willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/strbuf.c
 willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj -MF CMakeFiles\willuslib.dir\strbuf.c.obj.d -o CMakeFiles\willuslib.dir\strbuf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\strbuf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/strbuf.c.obj -MF CMakeFiles\willuslib.dir\strbuf.c.obj.d -o CMakeFiles\willuslib.dir\strbuf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\strbuf.c
 
 willuslib/CMakeFiles/willuslib.dir/strbuf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/strbuf.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\strbuf.c > CMakeFiles\willuslib.dir\strbuf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\strbuf.c > CMakeFiles\willuslib.dir\strbuf.c.i
 
 willuslib/CMakeFiles/willuslib.dir/strbuf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/strbuf.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\strbuf.c -o CMakeFiles\willuslib.dir\strbuf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\strbuf.c -o CMakeFiles\willuslib.dir\strbuf.c.s
 
 willuslib/CMakeFiles/willuslib.dir/string.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/string.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/string.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/string.c
+willuslib/CMakeFiles/willuslib.dir/string.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/string.c
 willuslib/CMakeFiles/willuslib.dir/string.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object willuslib/CMakeFiles/willuslib.dir/string.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/string.c.obj -MF CMakeFiles\willuslib.dir\string.c.obj.d -o CMakeFiles\willuslib.dir\string.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\string.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object willuslib/CMakeFiles/willuslib.dir/string.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/string.c.obj -MF CMakeFiles\willuslib.dir\string.c.obj.d -o CMakeFiles\willuslib.dir\string.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\string.c
 
 willuslib/CMakeFiles/willuslib.dir/string.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/string.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\string.c > CMakeFiles\willuslib.dir\string.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\string.c > CMakeFiles\willuslib.dir\string.c.i
 
 willuslib/CMakeFiles/willuslib.dir/string.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/string.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\string.c -o CMakeFiles\willuslib.dir\string.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\string.c -o CMakeFiles\willuslib.dir\string.c.s
 
 willuslib/CMakeFiles/willuslib.dir/token.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/token.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/token.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/token.c
+willuslib/CMakeFiles/willuslib.dir/token.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/token.c
 willuslib/CMakeFiles/willuslib.dir/token.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object willuslib/CMakeFiles/willuslib.dir/token.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/token.c.obj -MF CMakeFiles\willuslib.dir\token.c.obj.d -o CMakeFiles\willuslib.dir\token.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\token.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object willuslib/CMakeFiles/willuslib.dir/token.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/token.c.obj -MF CMakeFiles\willuslib.dir\token.c.obj.d -o CMakeFiles\willuslib.dir\token.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\token.c
 
 willuslib/CMakeFiles/willuslib.dir/token.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/token.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\token.c > CMakeFiles\willuslib.dir\token.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\token.c > CMakeFiles\willuslib.dir\token.c.i
 
 willuslib/CMakeFiles/willuslib.dir/token.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/token.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\token.c -o CMakeFiles\willuslib.dir\token.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\token.c -o CMakeFiles\willuslib.dir\token.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wfile.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wfile.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wfile.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wfile.c
+willuslib/CMakeFiles/willuslib.dir/wfile.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wfile.c
 willuslib/CMakeFiles/willuslib.dir/wfile.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object willuslib/CMakeFiles/willuslib.dir/wfile.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wfile.c.obj -MF CMakeFiles\willuslib.dir\wfile.c.obj.d -o CMakeFiles\willuslib.dir\wfile.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object willuslib/CMakeFiles/willuslib.dir/wfile.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wfile.c.obj -MF CMakeFiles\willuslib.dir\wfile.c.obj.d -o CMakeFiles\willuslib.dir\wfile.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wfile.c
 
 willuslib/CMakeFiles/willuslib.dir/wfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wfile.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wfile.c > CMakeFiles\willuslib.dir\wfile.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wfile.c > CMakeFiles\willuslib.dir\wfile.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wfile.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wfile.c -o CMakeFiles\willuslib.dir\wfile.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wfile.c -o CMakeFiles\willuslib.dir\wfile.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wgs.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wgs.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wgs.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wgs.c
+willuslib/CMakeFiles/willuslib.dir/wgs.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wgs.c
 willuslib/CMakeFiles/willuslib.dir/wgs.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object willuslib/CMakeFiles/willuslib.dir/wgs.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wgs.c.obj -MF CMakeFiles\willuslib.dir\wgs.c.obj.d -o CMakeFiles\willuslib.dir\wgs.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wgs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object willuslib/CMakeFiles/willuslib.dir/wgs.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wgs.c.obj -MF CMakeFiles\willuslib.dir\wgs.c.obj.d -o CMakeFiles\willuslib.dir\wgs.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wgs.c
 
 willuslib/CMakeFiles/willuslib.dir/wgs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wgs.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wgs.c > CMakeFiles\willuslib.dir\wgs.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wgs.c > CMakeFiles\willuslib.dir\wgs.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wgs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wgs.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wgs.c -o CMakeFiles\willuslib.dir\wgs.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wgs.c -o CMakeFiles\willuslib.dir\wgs.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wgui.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wgui.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wgui.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wgui.c
+willuslib/CMakeFiles/willuslib.dir/wgui.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wgui.c
 willuslib/CMakeFiles/willuslib.dir/wgui.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object willuslib/CMakeFiles/willuslib.dir/wgui.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wgui.c.obj -MF CMakeFiles\willuslib.dir\wgui.c.obj.d -o CMakeFiles\willuslib.dir\wgui.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wgui.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object willuslib/CMakeFiles/willuslib.dir/wgui.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wgui.c.obj -MF CMakeFiles\willuslib.dir\wgui.c.obj.d -o CMakeFiles\willuslib.dir\wgui.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wgui.c
 
 willuslib/CMakeFiles/willuslib.dir/wgui.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wgui.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wgui.c > CMakeFiles\willuslib.dir\wgui.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wgui.c > CMakeFiles\willuslib.dir\wgui.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wgui.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wgui.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wgui.c -o CMakeFiles\willuslib.dir\wgui.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wgui.c -o CMakeFiles\willuslib.dir\wgui.c.s
 
 willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/willusversion.c
+willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/willusversion.c
 willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj -MF CMakeFiles\willuslib.dir\willusversion.c.obj.d -o CMakeFiles\willuslib.dir\willusversion.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willusversion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/willusversion.c.obj -MF CMakeFiles\willuslib.dir\willusversion.c.obj.d -o CMakeFiles\willuslib.dir\willusversion.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willusversion.c
 
 willuslib/CMakeFiles/willuslib.dir/willusversion.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/willusversion.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willusversion.c > CMakeFiles\willuslib.dir\willusversion.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willusversion.c > CMakeFiles\willuslib.dir\willusversion.c.i
 
 willuslib/CMakeFiles/willuslib.dir/willusversion.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/willusversion.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willusversion.c -o CMakeFiles\willuslib.dir\willusversion.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willusversion.c -o CMakeFiles\willuslib.dir\willusversion.c.s
 
 willuslib/CMakeFiles/willuslib.dir/win.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/win.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/win.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/win.c
+willuslib/CMakeFiles/willuslib.dir/win.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/win.c
 willuslib/CMakeFiles/willuslib.dir/win.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object willuslib/CMakeFiles/willuslib.dir/win.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/win.c.obj -MF CMakeFiles\willuslib.dir\win.c.obj.d -o CMakeFiles\willuslib.dir\win.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\win.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object willuslib/CMakeFiles/willuslib.dir/win.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/win.c.obj -MF CMakeFiles\willuslib.dir\win.c.obj.d -o CMakeFiles\willuslib.dir\win.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\win.c
 
 willuslib/CMakeFiles/willuslib.dir/win.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/win.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\win.c > CMakeFiles\willuslib.dir\win.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\win.c > CMakeFiles\willuslib.dir\win.c.i
 
 willuslib/CMakeFiles/willuslib.dir/win.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/win.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\win.c -o CMakeFiles\willuslib.dir\win.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\win.c -o CMakeFiles\willuslib.dir\win.c.s
 
 willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/winbmp.c
+willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/winbmp.c
 willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj -MF CMakeFiles\willuslib.dir\winbmp.c.obj.d -o CMakeFiles\willuslib.dir\winbmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winbmp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winbmp.c.obj -MF CMakeFiles\willuslib.dir\winbmp.c.obj.d -o CMakeFiles\willuslib.dir\winbmp.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winbmp.c
 
 willuslib/CMakeFiles/willuslib.dir/winbmp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/winbmp.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winbmp.c > CMakeFiles\willuslib.dir\winbmp.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winbmp.c > CMakeFiles\willuslib.dir\winbmp.c.i
 
 willuslib/CMakeFiles/willuslib.dir/winbmp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/winbmp.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winbmp.c -o CMakeFiles\willuslib.dir\winbmp.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winbmp.c -o CMakeFiles\willuslib.dir\winbmp.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wincomdlg.c
+willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wincomdlg.c
 willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj -MF CMakeFiles\willuslib.dir\wincomdlg.c.obj.d -o CMakeFiles\willuslib.dir\wincomdlg.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wincomdlg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.obj -MF CMakeFiles\willuslib.dir\wincomdlg.c.obj.d -o CMakeFiles\willuslib.dir\wincomdlg.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wincomdlg.c
 
 willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wincomdlg.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wincomdlg.c > CMakeFiles\willuslib.dir\wincomdlg.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wincomdlg.c > CMakeFiles\willuslib.dir\wincomdlg.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wincomdlg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wincomdlg.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wincomdlg.c -o CMakeFiles\willuslib.dir\wincomdlg.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wincomdlg.c -o CMakeFiles\willuslib.dir\wincomdlg.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wininet.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wininet.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wininet.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wininet.c
+willuslib/CMakeFiles/willuslib.dir/wininet.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wininet.c
 willuslib/CMakeFiles/willuslib.dir/wininet.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object willuslib/CMakeFiles/willuslib.dir/wininet.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wininet.c.obj -MF CMakeFiles\willuslib.dir\wininet.c.obj.d -o CMakeFiles\willuslib.dir\wininet.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wininet.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object willuslib/CMakeFiles/willuslib.dir/wininet.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wininet.c.obj -MF CMakeFiles\willuslib.dir\wininet.c.obj.d -o CMakeFiles\willuslib.dir\wininet.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wininet.c
 
 willuslib/CMakeFiles/willuslib.dir/wininet.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wininet.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wininet.c > CMakeFiles\willuslib.dir\wininet.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wininet.c > CMakeFiles\willuslib.dir\wininet.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wininet.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wininet.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wininet.c -o CMakeFiles\willuslib.dir\wininet.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wininet.c -o CMakeFiles\willuslib.dir\wininet.c.s
 
 willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/winmbox.c
+willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/winmbox.c
 willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj -MF CMakeFiles\willuslib.dir\winmbox.c.obj.d -o CMakeFiles\willuslib.dir\winmbox.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winmbox.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winmbox.c.obj -MF CMakeFiles\willuslib.dir\winmbox.c.obj.d -o CMakeFiles\willuslib.dir\winmbox.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winmbox.c
 
 willuslib/CMakeFiles/willuslib.dir/winmbox.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/winmbox.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winmbox.c > CMakeFiles\willuslib.dir\winmbox.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winmbox.c > CMakeFiles\willuslib.dir\winmbox.c.i
 
 willuslib/CMakeFiles/willuslib.dir/winmbox.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/winmbox.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winmbox.c -o CMakeFiles\willuslib.dir\winmbox.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winmbox.c -o CMakeFiles\willuslib.dir\winmbox.c.s
 
 willuslib/CMakeFiles/willuslib.dir/winshell.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/winshell.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/winshell.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/winshell.c
+willuslib/CMakeFiles/willuslib.dir/winshell.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/winshell.c
 willuslib/CMakeFiles/willuslib.dir/winshell.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object willuslib/CMakeFiles/willuslib.dir/winshell.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winshell.c.obj -MF CMakeFiles\willuslib.dir\winshell.c.obj.d -o CMakeFiles\willuslib.dir\winshell.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winshell.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object willuslib/CMakeFiles/willuslib.dir/winshell.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winshell.c.obj -MF CMakeFiles\willuslib.dir\winshell.c.obj.d -o CMakeFiles\willuslib.dir\winshell.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winshell.c
 
 willuslib/CMakeFiles/willuslib.dir/winshell.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/winshell.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winshell.c > CMakeFiles\willuslib.dir\winshell.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winshell.c > CMakeFiles\willuslib.dir\winshell.c.i
 
 willuslib/CMakeFiles/willuslib.dir/winshell.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/winshell.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winshell.c -o CMakeFiles\willuslib.dir\winshell.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winshell.c -o CMakeFiles\willuslib.dir\winshell.c.s
 
 willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/winshellwapi.c
+willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/winshellwapi.c
 willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj -MF CMakeFiles\willuslib.dir\winshellwapi.c.obj.d -o CMakeFiles\willuslib.dir\winshellwapi.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winshellwapi.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.obj -MF CMakeFiles\willuslib.dir\winshellwapi.c.obj.d -o CMakeFiles\willuslib.dir\winshellwapi.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winshellwapi.c
 
 willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/winshellwapi.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winshellwapi.c > CMakeFiles\willuslib.dir\winshellwapi.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winshellwapi.c > CMakeFiles\willuslib.dir\winshellwapi.c.i
 
 willuslib/CMakeFiles/willuslib.dir/winshellwapi.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/winshellwapi.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\winshellwapi.c -o CMakeFiles\willuslib.dir\winshellwapi.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\winshellwapi.c -o CMakeFiles\willuslib.dir\winshellwapi.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wleptonica.c
+willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wleptonica.c
 willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj -MF CMakeFiles\willuslib.dir\wleptonica.c.obj.d -o CMakeFiles\willuslib.dir\wleptonica.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wleptonica.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building C object willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wleptonica.c.obj -MF CMakeFiles\willuslib.dir\wleptonica.c.obj.d -o CMakeFiles\willuslib.dir\wleptonica.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wleptonica.c
 
 willuslib/CMakeFiles/willuslib.dir/wleptonica.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wleptonica.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wleptonica.c > CMakeFiles\willuslib.dir\wleptonica.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wleptonica.c > CMakeFiles\willuslib.dir\wleptonica.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wleptonica.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wleptonica.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wleptonica.c -o CMakeFiles\willuslib.dir\wleptonica.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wleptonica.c -o CMakeFiles\willuslib.dir\wleptonica.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wmupdf.c
+willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wmupdf.c
 willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj -MF CMakeFiles\willuslib.dir\wmupdf.c.obj.d -o CMakeFiles\willuslib.dir\wmupdf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wmupdf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building C object willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wmupdf.c.obj -MF CMakeFiles\willuslib.dir\wmupdf.c.obj.d -o CMakeFiles\willuslib.dir\wmupdf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wmupdf.c
 
 willuslib/CMakeFiles/willuslib.dir/wmupdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wmupdf.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wmupdf.c > CMakeFiles\willuslib.dir\wmupdf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wmupdf.c > CMakeFiles\willuslib.dir\wmupdf.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wmupdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wmupdf.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wmupdf.c -o CMakeFiles\willuslib.dir\wmupdf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wmupdf.c -o CMakeFiles\willuslib.dir\wmupdf.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wmupdfinfo.c
+willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wmupdfinfo.c
 willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj -MF CMakeFiles\willuslib.dir\wmupdfinfo.c.obj.d -o CMakeFiles\willuslib.dir\wmupdfinfo.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wmupdfinfo.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building C object willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.obj -MF CMakeFiles\willuslib.dir\wmupdfinfo.c.obj.d -o CMakeFiles\willuslib.dir\wmupdfinfo.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wmupdfinfo.c
 
 willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wmupdfinfo.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wmupdfinfo.c > CMakeFiles\willuslib.dir\wmupdfinfo.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wmupdfinfo.c > CMakeFiles\willuslib.dir\wmupdfinfo.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wmupdfinfo.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wmupdfinfo.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wmupdfinfo.c -o CMakeFiles\willuslib.dir\wmupdfinfo.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wmupdfinfo.c -o CMakeFiles\willuslib.dir\wmupdfinfo.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wpdf.c
+willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wpdf.c
 willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj -MF CMakeFiles\willuslib.dir\wpdf.c.obj.d -o CMakeFiles\willuslib.dir\wpdf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdf.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building C object willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wpdf.c.obj -MF CMakeFiles\willuslib.dir\wpdf.c.obj.d -o CMakeFiles\willuslib.dir\wpdf.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdf.c
 
 willuslib/CMakeFiles/willuslib.dir/wpdf.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wpdf.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdf.c > CMakeFiles\willuslib.dir\wpdf.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdf.c > CMakeFiles\willuslib.dir\wpdf.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wpdf.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wpdf.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdf.c -o CMakeFiles\willuslib.dir\wpdf.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdf.c -o CMakeFiles\willuslib.dir\wpdf.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wpdfoutline.c
+willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wpdfoutline.c
 willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj -MF CMakeFiles\willuslib.dir\wpdfoutline.c.obj.d -o CMakeFiles\willuslib.dir\wpdfoutline.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdfoutline.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building C object willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj -MF CMakeFiles\willuslib.dir\wpdfoutline.c.obj.d -o CMakeFiles\willuslib.dir\wpdfoutline.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdfoutline.c
 
 willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wpdfoutline.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdfoutline.c > CMakeFiles\willuslib.dir\wpdfoutline.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdfoutline.c > CMakeFiles\willuslib.dir\wpdfoutline.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wpdfoutline.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdfoutline.c -o CMakeFiles\willuslib.dir\wpdfoutline.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdfoutline.c -o CMakeFiles\willuslib.dir\wpdfoutline.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wpdfutil.c
+willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wpdfutil.c
 willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj -MF CMakeFiles\willuslib.dir\wpdfutil.c.obj.d -o CMakeFiles\willuslib.dir\wpdfutil.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdfutil.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building C object willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.obj -MF CMakeFiles\willuslib.dir\wpdfutil.c.obj.d -o CMakeFiles\willuslib.dir\wpdfutil.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdfutil.c
 
 willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wpdfutil.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdfutil.c > CMakeFiles\willuslib.dir\wpdfutil.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdfutil.c > CMakeFiles\willuslib.dir\wpdfutil.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wpdfutil.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wpdfutil.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdfutil.c -o CMakeFiles\willuslib.dir\wpdfutil.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdfutil.c -o CMakeFiles\willuslib.dir\wpdfutil.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wsys.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wsys.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wsys.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wsys.c
+willuslib/CMakeFiles/willuslib.dir/wsys.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wsys.c
 willuslib/CMakeFiles/willuslib.dir/wsys.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object willuslib/CMakeFiles/willuslib.dir/wsys.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wsys.c.obj -MF CMakeFiles\willuslib.dir\wsys.c.obj.d -o CMakeFiles\willuslib.dir\wsys.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wsys.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building C object willuslib/CMakeFiles/willuslib.dir/wsys.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wsys.c.obj -MF CMakeFiles\willuslib.dir\wsys.c.obj.d -o CMakeFiles\willuslib.dir\wsys.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wsys.c
 
 willuslib/CMakeFiles/willuslib.dir/wsys.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wsys.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wsys.c > CMakeFiles\willuslib.dir\wsys.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wsys.c > CMakeFiles\willuslib.dir\wsys.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wsys.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wsys.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wsys.c -o CMakeFiles\willuslib.dir\wsys.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wsys.c -o CMakeFiles\willuslib.dir\wsys.c.s
 
 willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj: willuslib/CMakeFiles/willuslib.dir/flags.make
 willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj: willuslib/CMakeFiles/willuslib.dir/includes_C.rsp
-willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/willuslib/wzfile.c
+willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj: C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/willuslib/wzfile.c
 willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj: willuslib/CMakeFiles/willuslib.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj -MF CMakeFiles\willuslib.dir\wzfile.c.obj.d -o CMakeFiles\willuslib.dir\wzfile.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wzfile.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building C object willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj -MF CMakeFiles\willuslib.dir\wzfile.c.obj.d -o CMakeFiles\willuslib.dir\wzfile.c.obj -c C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wzfile.c
 
 willuslib/CMakeFiles/willuslib.dir/wzfile.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/willuslib.dir/wzfile.c.i"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wzfile.c > CMakeFiles\willuslib.dir\wzfile.c.i
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wzfile.c > CMakeFiles\willuslib.dir\wzfile.c.i
 
 willuslib/CMakeFiles/willuslib.dir/wzfile.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/willuslib.dir/wzfile.c.s"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\cc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wzfile.c -o CMakeFiles\willuslib.dir\wzfile.c.s
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && C:\msys64\mingw64\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wzfile.c -o CMakeFiles\willuslib.dir\wzfile.c.s
 
 # Object files for target willuslib
 willuslib_OBJECTS = \
@@ -776,19 +776,19 @@ willuslib/libwilluslib.a: willuslib/CMakeFiles/willuslib.dir/wsys.c.obj
 willuslib/libwilluslib.a: willuslib/CMakeFiles/willuslib.dir/wzfile.c.obj
 willuslib/libwilluslib.a: willuslib/CMakeFiles/willuslib.dir/build.make
 willuslib/libwilluslib.a: willuslib/CMakeFiles/willuslib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking C static library libwilluslib.a"
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && $(CMAKE_COMMAND) -P CMakeFiles\willuslib.dir\cmake_clean_target.cmake
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\willuslib.dir\link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking C static library libwilluslib.a"
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && $(CMAKE_COMMAND) -P CMakeFiles\willuslib.dir\cmake_clean_target.cmake
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\willuslib.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 willuslib/CMakeFiles/willuslib.dir/build: willuslib/libwilluslib.a
 .PHONY : willuslib/CMakeFiles/willuslib.dir/build
 
 willuslib/CMakeFiles/willuslib.dir/clean:
-	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib && $(CMAKE_COMMAND) -P CMakeFiles\willuslib.dir\cmake_clean.cmake
+	cd /d C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib && $(CMAKE_COMMAND) -P CMakeFiles\willuslib.dir\cmake_clean.cmake
 .PHONY : willuslib/CMakeFiles/willuslib.dir/clean
 
 willuslib/CMakeFiles/willuslib.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\willuslib\CMakeFiles\willuslib.dir\DependInfo.cmake "--color=$(COLOR)" willuslib
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\willuslib\CMakeFiles\willuslib.dir\DependInfo.cmake "--color=$(COLOR)" willuslib
 .PHONY : willuslib/CMakeFiles/willuslib.dir/depend
 

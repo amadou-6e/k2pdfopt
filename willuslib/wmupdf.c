@@ -30,7 +30,13 @@
 
 #ifdef HAVE_MUPDF_LIB
 #include <mupdf/pdf.h>
-void pdf_install_load_system_font_funcs(fz_context *ctx);
+/*
+** Newer MuPDF builds may not export this optional hook. Keep calls as no-op
+** so linking still succeeds while preserving compatibility with older forks.
+*/
+#ifndef pdf_install_load_system_font_funcs
+#define pdf_install_load_system_font_funcs(ctx) ((void)(ctx))
+#endif
 
 static void info_update(fz_context *ctx,pdf_document *xref,char *producer,char *author,char *title);
 static void dict_put_string(fz_context *ctx,pdf_obj *dict,char *key,char *string);

@@ -726,9 +726,14 @@ printf("Done k2ocr_ocrwords_add_subregion_to_queue()\n");
 void k2ocr_multithreaded_ocr(OCRWORDS *words,K2PDFOPT_SETTINGS *k2settings)
 
     {
+#if (defined(HAVE_TESSERACT_LIB))
     ocr_cpu_time_secs += ocrwords_multithreaded_ocr(words,ocrtess_api,maxthreads,
                                                     k2settings->dst_ocr,
                                                     k2settings->ocr_dpi);
+#else
+    (void)words;
+    (void)k2settings;
+#endif
     }
 
 

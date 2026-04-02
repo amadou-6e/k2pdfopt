@@ -1,5 +1,5 @@
 willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj: \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\wpdfoutline.c \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\wpdfoutline.c \
  C:/msys64/mingw64/include/stdio.h \
  C:/msys64/mingw64/include/corecrt_stdio_config.h \
  C:/msys64/mingw64/include/corecrt.h C:/msys64/mingw64/include/_mingw.h \
@@ -21,8 +21,8 @@ willuslib/CMakeFiles/willuslib.dir/wpdfoutline.c.obj: \
  C:/msys64/mingw64/include/errno.h C:/msys64/mingw64/include/string.h \
  C:/msys64/mingw64/include/sec_api/string_s.h \
  C:/msys64/mingw64/include/math.h \
- C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\willuslib\willus.h \
- C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/config.h \
+ C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\willuslib\willus.h \
+ C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/config.h \
  C:/msys64/mingw64/include/time.h C:/msys64/mingw64/include/sys/timeb.h \
  C:/msys64/mingw64/include/sec_api/sys/timeb_s.h \
  C:/msys64/mingw64/include/_timeval.h \

@@ -1,9 +1,9 @@
 {
 	"InstallScripts" : 
 	[
-		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/cmake_install.cmake",
-		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/willuslib/cmake_install.cmake",
-		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/external/k2pdfopt/build/k2pdfoptlib/cmake_install.cmake"
+		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/cmake_install.cmake",
+		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/willuslib/cmake_install.cmake",
+		"C:/Users/acisse/Documents/CodeWorkspace/epub-papers/k2pdfopt/build/k2pdfoptlib/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

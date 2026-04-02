@@ -107,7 +107,7 @@
 #endif
 */
 
-#if (defined(HAVE_MUPDF) || defined(HAVE_GOCR_LIB) || defined(HAVE_TESSERACT_LIB) || defined(HAVE_DJVU_LIB) || defined(HAVE_OCR_LIB))
+#if (defined(HAVE_MUPDF) || defined(HAVE_MUPDF_LIB) || defined(HAVE_GOCR_LIB) || defined(HAVE_TESSERACT_LIB) || defined(HAVE_DJVU_LIB) || defined(HAVE_OCR_LIB))
 #if (!defined(HAVE_OCR_LIB))
 #define HAVE_OCR_LIB
 #endif

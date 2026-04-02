@@ -53,10 +53,10 @@ RM = C:\msys64\mingw64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt
+CMAKE_SOURCE_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build
+CMAKE_BINARY_DIR = C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -130,14 +130,14 @@ CMakeFiles/k2pdfopt.dir/all: willuslib/CMakeFiles/willuslib.dir/all
 CMakeFiles/k2pdfopt.dir/all: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\k2pdfopt.dir\build.make CMakeFiles/k2pdfopt.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\k2pdfopt.dir\build.make CMakeFiles/k2pdfopt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=1,2 "Built target k2pdfopt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=1,2 "Built target k2pdfopt"
 .PHONY : CMakeFiles/k2pdfopt.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/k2pdfopt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 73
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 73
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 CMakeFiles/k2pdfopt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 0
 .PHONY : CMakeFiles/k2pdfopt.dir/rule
 
 # Convenience name for target.
@@ -147,7 +147,7 @@ k2pdfopt: CMakeFiles/k2pdfopt.dir/rule
 # codegen rule for target.
 CMakeFiles/k2pdfopt.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\k2pdfopt.dir\build.make CMakeFiles/k2pdfopt.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=1,2 "Finished codegen for target k2pdfopt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=1,2 "Finished codegen for target k2pdfopt"
 .PHONY : CMakeFiles/k2pdfopt.dir/codegen
 
 # clean rule for target.
@@ -162,14 +162,14 @@ CMakeFiles/k2pdfopt.dir/clean:
 willuslib/CMakeFiles/willuslib.dir/all:
 	$(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/depend
 	$(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target willuslib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Built target willuslib"
 .PHONY : willuslib/CMakeFiles/willuslib.dir/all
 
 # Build rule for subdir invocation for target.
 willuslib/CMakeFiles/willuslib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 42
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 42
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 willuslib/CMakeFiles/willuslib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 0
 .PHONY : willuslib/CMakeFiles/willuslib.dir/rule
 
 # Convenience name for target.
@@ -179,7 +179,7 @@ willuslib: willuslib/CMakeFiles/willuslib.dir/rule
 # codegen rule for target.
 willuslib/CMakeFiles/willuslib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f willuslib\CMakeFiles\willuslib.dir\build.make willuslib/CMakeFiles/willuslib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Finished codegen for target willuslib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73 "Finished codegen for target willuslib"
 .PHONY : willuslib/CMakeFiles/willuslib.dir/codegen
 
 # clean rule for target.
@@ -194,14 +194,14 @@ willuslib/CMakeFiles/willuslib.dir/clean:
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/all:
 	$(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/depend
 	$(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target k2pdfoptlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Built target k2pdfoptlib"
 .PHONY : k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/all
 
 # Build rule for subdir invocation for target.
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 29
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 29
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles 0
 .PHONY : k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule
 
 # Convenience name for target.
@@ -211,7 +211,7 @@ k2pdfoptlib: k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/rule
 # codegen rule for target.
 k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/codegen:
 	$(MAKE) $(MAKESILENT) -f k2pdfoptlib\CMakeFiles\k2pdfoptlib.dir\build.make k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\external\k2pdfopt\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Finished codegen for target k2pdfoptlib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=C:\Users\acisse\Documents\CodeWorkspace\epub-papers\k2pdfopt\build\CMakeFiles --progress-num=3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31 "Finished codegen for target k2pdfoptlib"
 .PHONY : k2pdfoptlib/CMakeFiles/k2pdfoptlib.dir/codegen
 
 # clean rule for target.
