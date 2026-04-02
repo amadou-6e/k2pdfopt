@@ -292,6 +292,7 @@ static void k2settings_to_cmd(STRBUF *cmdline,K2PDFOPT_SETTINGS *dst,
     minus_check(cmdline,"-pi",&src->preserve_indentation,dst->preserve_indentation);
     */
     plus_minus_check(cmdline,NULL,"-wrap",&src->text_wrap,dst->text_wrap);
+    minus_check(cmdline,nongui,"-stretch",&src->reflow_stretch_enable,dst->reflow_stretch_enable);
 #ifdef HAVE_MUPDF_LIB
     if (src->user_usegs != dst->user_usegs)
         {
@@ -567,6 +568,8 @@ static void k2settings_to_cmd(STRBUF *cmdline,K2PDFOPT_SETTINGS *dst,
         src->dst_userwidth_units=dst->dst_userwidth_units;
         }
     double_check(cmdline,NULL,"-ws",&src->word_spacing,dst->word_spacing);
+    double_check(cmdline,nongui,"-stretchr",&src->reflow_stretch_ratio,dst->reflow_stretch_ratio);
+    double_check(cmdline,nongui,"-stretchmax",&src->reflow_stretch_max_ratio,dst->reflow_stretch_max_ratio);
     {
     char cmdopt[8];
 

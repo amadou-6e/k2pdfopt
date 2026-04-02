@@ -1037,6 +1037,17 @@ static char *k2pdfopt_options=
 "                  narrow columns of text are not magnified to fit your device.\n"
 "                  Text wrapping disables native PDF output (see -n option).\n"
 "                  See also -ws, -j, -fc, -n.\n"
+"-stretch[-]       Enable [disable] reflow stretch mode.  When enabled, the\n"
+"                  reflow line-packing width budget is increased so lines can\n"
+"                  contain more words before wrapping.  This tends to produce\n"
+"                  smaller apparent font and a wider text layout while keeping\n"
+"                  reflow behavior.  Default = disabled.\n"
+"-stretchr <ratio> Reflow stretch ratio.  Used only when -stretch is enabled.\n"
+"                  Values > 1 widen the reflow budget.  E.g. 1.15 allows about\n"
+"                  15%% more horizontal packing before line breaks.\n"
+"                  Default = 1.0.\n"
+"-stretchmax <r>   Safety cap for effective stretch ratio in reflow mode.\n"
+"                  Default = 1.35.\n"
 /*
 "-whmax <height>   Max height allowed for wrapping a row (inches).\n"
 */

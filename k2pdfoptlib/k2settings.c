@@ -125,6 +125,9 @@ void k2pdfopt_settings_init(K2PDFOPT_SETTINGS *k2settings)
     k2settings->column_offset_max=0.3;
     k2settings->column_row_gap_height_in=1./72.;
     k2settings->text_wrap=1;
+    k2settings->reflow_stretch_enable=0;
+    k2settings->reflow_stretch_ratio=1.0;
+    k2settings->reflow_stretch_max_ratio=1.35;
     k2settings->word_spacing=-0.20;
     k2settings->display_width_inches = 3.6; /* Device width = dst_width / dst_dpi */
     k2settings->pagelist[0]='\0';

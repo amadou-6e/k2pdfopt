@@ -232,6 +232,7 @@ int parse_cmd_args(K2PDFOPT_CONVERSION *k2conv,STRBUF *env,STRBUF *cmdline,
         MINUS_OPTION("-s",dst_sharpen,1)
         MINUS_OPTION("-to",text_only,1)
         MINUS_OPTION("-fr",dst_figure_rotate,1)
+        MINUS_OPTION("-stretch",reflow_stretch_enable,1)
         MINUS_OPTION("-y",assume_yes,1)
         MINUS_OPTION("-ddr",detect_double_rows,1)
 #ifdef HAVE_GHOSTSCRIPT
@@ -1468,6 +1469,8 @@ printf("units=%d\n",k2settings->srccropmargins.units[0]);
         NEEDS_VALUE("-cmax",contrast_max)
         NEEDS_VALUE("-ch",min_column_height_inches)
         NEEDS_VALUE("-dr",dst_display_resolution)
+        NEEDS_VALUE("-stretchr",reflow_stretch_ratio)
+        NEEDS_VALUE("-stretchmax",reflow_stretch_max_ratio)
         if (!stricmp(cl->cmdarg,"-mag") && setvals==1)
             k2settings->user_mag |= 4;
         NEEDS_VALUE("-mag",dst_magnification)

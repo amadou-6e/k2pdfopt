@@ -104,7 +104,7 @@ ocrwords_echo(&masterinfo->mi_ocrwords,stdout,1,1);
 #else
     ocrwords=NULL;
     nocr=0;
-    queue_page=0;
+    queue_pages_only=0;
 #endif
 #if (WILLUSDEBUGX2==3)
 aprintf(ANSI_GREEN "\n   SRC PAGE %d, nocr=%d, queue=%d, threads=%d\n\n" ANSI_NORMAL,masterinfo->pageinfo.srcpage,nocr,queue_pages_only,k2ocr_max_threads());

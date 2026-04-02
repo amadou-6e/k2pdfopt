@@ -102,8 +102,21 @@ int wrapbmp_width(WRAPBMP *wrapbmp)
 int wrapbmp_remaining(WRAPBMP *wrapbmp,K2PDFOPT_SETTINGS *k2settings)
 
     {
+    double stretch_ratio;
     int maxpix,w;
-    maxpix=k2settings->max_region_width_inches*k2settings->src_dpi;
+    stretch_ratio=1.0;
+    if (k2settings->reflow_stretch_enable && k2settings->text_wrap!=0)
+        {
+        stretch_ratio=k2settings->reflow_stretch_ratio;
+        if (stretch_ratio < 1.0)
+            stretch_ratio=1.0;
+        if (k2settings->reflow_stretch_max_ratio > 1.0
+                && stretch_ratio > k2settings->reflow_stretch_max_ratio)
+            stretch_ratio=k2settings->reflow_stretch_max_ratio;
+        }
+    maxpix=(int)(k2settings->max_region_width_inches*k2settings->src_dpi*stretch_ratio+0.5);
+    if (maxpix < 1)
+        maxpix=1;
     /* Don't include hyphen if wrapbmp ends in a hyphen */
     if (wrapbmp->hyphen.ch<0)
         w=wrapbmp->bmp.width;

@@ -1,0 +1,1 @@
+ k2pdfoptlib/libk2pdfoptlib.a willuslib/libwilluslib.a -lm C:/msys64/mingw64/lib/libz.dll.a C:/msys64/mingw64/lib/libpng.dll.a C:/msys64/mingw64/lib/libjpeg.dll.a -lgdi32 -luuid -lole32 -lcomdlg32 -lshlwapi -lpthread -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

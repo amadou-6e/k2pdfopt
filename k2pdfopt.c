@@ -75,8 +75,12 @@
 
 #include <k2pdfopt.h>
 
-#if (defined(HAVE_K2GUI) && (defined(WIN32) || defined(WIN64)))
+#if (defined(WIN32) || defined(WIN64))
 #include <windows.h>
+#include <shellapi.h>
+#endif
+
+#if (defined(HAVE_K2GUI) && (defined(WIN32) || defined(WIN64)))
 static void k2pdfopt_launch_gui(K2PDFOPT_CONVERSION *k2conv,STRBUF *env,STRBUF *cmdline,int ascii);
 #endif
 

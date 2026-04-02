@@ -425,6 +425,7 @@ static void *otinit(void *data)
 void k2ocr_showlog(void)
 
     {
+#ifdef HAVE_TESSERACT_LIB
     static char *funcname="k2ocr_showlog";
 
     if (k2ocr_tess_status<0 && k2ocr_logfile!=NULL && wfile_status(k2ocr_logfile)==1
@@ -468,6 +469,7 @@ void k2ocr_showlog(void)
         k2printf(header,divider,"End","\n");
         willus_mem_free((double **)&bigbuf,funcname);
         }
+#endif
     }
             
 

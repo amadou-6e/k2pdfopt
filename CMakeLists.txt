@@ -114,7 +114,7 @@ endif(TESSERACT_FOUND)
 
 # ---- Describe project
 
-SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DUSE_CMAKE -Wall")
+SET(CMAKE_C_FLAGS "${CMAKE_C_FLAGS} -DUSE_CMAKE -DK2PDFOPT_KINDLEPDFVIEWER -Wall")
 
 include_directories(. "${PROJECT_BINARY_DIR}" willuslib k2pdfoptlib)
 
@@ -128,6 +128,9 @@ add_subdirectory(k2pdfoptlib)
 
 # ms
 add_executable(k2pdfopt k2pdfopt.c)
+if(WIN32)
+  set(K2PDFOPT_LIB ${K2PDFOPT_LIB} gdi32 uuid ole32 comdlg32 shlwapi)
+endif()
 target_link_libraries (k2pdfopt k2pdfoptlib willuslib ${K2PDFOPT_LIB} pthread)
 
 

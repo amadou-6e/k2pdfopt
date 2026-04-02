@@ -107,7 +107,7 @@
 #endif
 */
 
-#if (defined(HAVE_MUPDF) || defined(HAVE_GOCR_LIB) || defined(HAVE_TESSERACT_LIB) || defined(HAVE_DJVU_LIB))
+#if (defined(HAVE_MUPDF) || defined(HAVE_GOCR_LIB) || defined(HAVE_TESSERACT_LIB) || defined(HAVE_DJVU_LIB) || defined(HAVE_OCR_LIB))
 #if (!defined(HAVE_OCR_LIB))
 #define HAVE_OCR_LIB
 #endif
@@ -363,6 +363,9 @@ typedef struct
     double column_row_gap_height_in;
     double row_split_fom;  /* Used by breakinfo_find_doubles() */
     int text_wrap;
+    int reflow_stretch_enable; /* Enables horizontal stretch of reflow width budget */
+    double reflow_stretch_ratio; /* Requested reflow stretch ratio (>=1.0) */
+    double reflow_stretch_max_ratio; /* Safety cap for stretch ratio */
     double word_spacing; /* Negative for auto */
     double display_width_inches; /* Device width = dst_width / dst_dpi */
     char pagelist[1024];

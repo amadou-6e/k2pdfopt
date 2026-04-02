@@ -9,7 +9,7 @@ include_directories(..)
 set(WILLUSLIB_SRC
     ansi.c array.c bmp.c bmpdjvu.c bmpmupdf.c dtcompress.c filelist.c
     fontdata.c fontrender.c gslpolyfit.c linux.c math.c mem.c ocr.c
-    ocrgocr.c ocrtess.c ocrwords.c pdffonts.c pdfwrite.c point2d.c
+  ocrwords.c pdffonts.c pdfwrite.c point2d.c
     render.c strbuf.c string.c token.c wfile.c wgs.c wgui.c
     willusversion.c win.c winbmp.c wincomdlg.c wininet.c winmbox.c
     winshell.c winshellwapi.c wleptonica.c wmupdf.c wmupdfinfo.c wpdf.c
@@ -25,6 +25,10 @@ endif(DJVU_FOUND)
 if(MUPDF_FOUND)
   set(WILLUSLIB_SRC ${WILLUSLIB_SRC} bmpmupdf.c wmupdf.c)
 endif(MUPDF_FOUND)
+
+if(TESSERACT_FOUND)
+  set(WILLUSLIB_SRC ${WILLUSLIB_SRC} ocrtess.c)
+endif(TESSERACT_FOUND)
 
 message("-- Willuslib sources: ${WILLUSLIB_SRC}")
 
