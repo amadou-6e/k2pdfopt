@@ -1496,7 +1496,11 @@ wfile_written_info(filename,stdout);
         }
 
     if (added_region->force_scale > 0.)
+        {
         w = (int)(added_region->force_scale*bmp->width+0.5);
+        if (w > wmax)
+            w = wmax;
+        }
     else
         {
         if (region_width_inches < k2settings->max_region_width_inches)

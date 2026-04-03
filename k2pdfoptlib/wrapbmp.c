@@ -403,7 +403,7 @@ void wrapbmp_flush(MASTERINFO *masterinfo,K2PDFOPT_SETTINGS *k2settings,
     BMPREGION region;
     WILLUSBITMAP *bmp8,_bmp8;
     int just;
-    int maxpix;
+    int maxpix,wmax;
     WRAPBMP *wrapbmp;
     double stretch_ratio,fill_ratio;
     /*
@@ -480,33 +480,39 @@ k2printf("Bitmap is %d x %d (baseline=%d)\n",wrapbmp->bmp.width,wrapbmp->bmp.hei
     region.bbox.gapblank=wrapbmp->textrow.gapblank;
     region.bbox.type=REGION_TYPE_TEXTLINE;
     region.wrectmaps=&wrapbmp->wrectmaps;
+    /*
+    ** Compute stretch budget (maxpix) and destination display width (wmax) once
+    ** so we can enforce a constant scale factor across all lines on this page.
+    */
+    stretch_ratio=1.0;
+    maxpix=0;
+    wmax=0;
+    if (k2settings->reflow_stretch_enable && k2settings->text_wrap!=0)
+        {
+        int dstmar_pixels[4];
+        stretch_ratio=k2settings->reflow_stretch_ratio;
+        if (stretch_ratio < 1.0)
+            stretch_ratio=1.0;
+        if (k2settings->reflow_stretch_max_ratio > 1.0
+                && stretch_ratio > k2settings->reflow_stretch_max_ratio)
+            stretch_ratio=k2settings->reflow_stretch_max_ratio;
+        maxpix=(int)(k2settings->max_region_width_inches*k2settings->src_dpi*stretch_ratio+0.5);
+        if (maxpix < 1)
+            maxpix=1;
+        fill_ratio=(double)wrapbmp->bmp.width/maxpix;
+        get_dest_margins(dstmar_pixels,k2settings,(double)k2settings->dst_dpi,
+                         masterinfo->bmp.width,k2settings->dst_height);
+        wmax=masterinfo->bmp.width-dstmar_pixels[0]-dstmar_pixels[2];
+        if (wmax < 1)
+            wmax=1;
+        }
     if (!allow_full_justification)
         {
         /*
-        ** In stretch mode, keep full-width justification even for paragraph-end
-        ** flushes so the final line also participates in the tighter reflow.
+        ** In stretch mode, never apply full justification to paragraph-end lines.
+        ** This prevents ugly stretched spacing on short terminal lines.
         */
-        if (k2settings->reflow_stretch_enable && k2settings->text_wrap!=0)
-            {
-            stretch_ratio=k2settings->reflow_stretch_ratio;
-            if (stretch_ratio < 1.0)
-                stretch_ratio=1.0;
-            if (k2settings->reflow_stretch_max_ratio > 1.0
-                    && stretch_ratio > k2settings->reflow_stretch_max_ratio)
-                stretch_ratio=k2settings->reflow_stretch_max_ratio;
-            maxpix=(int)(k2settings->max_region_width_inches*k2settings->src_dpi*stretch_ratio+0.5);
-            if (maxpix < 1)
-                maxpix=1;
-            fill_ratio=(double)wrapbmp->bmp.width/maxpix;
-            /*
-            ** In stretch mode, never apply full justification to paragraph-end lines.
-            ** This prevents ugly stretched spacing on short terminal lines.
-            ** Paragraph-end lines benefit from ragged-right formatting instead.
-            */
-            just = (wrapbmp->just & 0xcf) | 0x20;
-            }
-        else
-            just = (wrapbmp->just & 0xcf) | 0x20;
+        just = (wrapbmp->just & 0xcf) | 0x20;
         }
     else
         just = wrapbmp->just;
@@ -590,7 +596,15 @@ printf("wrapbmp_flush calling bmpregion_add() w/bbox.rowheight=%d\n",region.bbox
     added_region.allow_text_wrapping=0;
     added_region.trim_flags=0;
     added_region.allow_vertical_breaks=0;
-    added_region.force_scale=-1.0;
+    /*
+    ** In stretch mode, enforce a constant scale factor (wmax/maxpix) for every
+    ** reflowed line so all text on the page is rendered at the same size,
+    ** regardless of how many words ended up on each line.
+    */
+    if (k2settings->reflow_stretch_enable && k2settings->text_wrap!=0 && maxpix>0)
+        added_region.force_scale=(double)wmax/maxpix;
+    else
+        added_region.force_scale=-1.0;
     added_region.justification_flags=just;
     added_region.caller_id=2;
     /* added_region.mark_flags=0xf; */
