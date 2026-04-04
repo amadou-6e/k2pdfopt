@@ -2838,6 +2838,7 @@ k2printf("Processing text row by row (text wrapping on)...\n");
         {
         TEXTROW *textrow;
         int justflags,trimflags,centered,marking_flags,line_spacing;
+        int just_changed,indent_now,short_now,strong_break;
         BMPREGION *newregion,_newregion;
 
         textrow=&textrows->textrow[i];
@@ -2864,14 +2865,26 @@ k2printf("    linespacing=%3d\n",line_spacing);
         /* The |3 tells it to use the user settings for left/right/center */
         justflags = mlp->just[i-mlp->i1]|0x3;
         centered=((justflags&0xc)==4);
+        just_changed = (i>mlp->i1
+                        && (mlp->just[i-mlp->i1]&0xc)!=(mlp->just[i-mlp->i1-1]&0xc));
+        indent_now = mlp->indented[i-mlp->i1];
+        short_now = mlp->short_line[i-mlp->i1];
+        /*
+        ** Require more than one weak signal before forcing a paragraph break.
+        ** This makes inline emphasis / transient spacing less likely to split
+        ** paragraphs while preserving strong structural breaks.
+        */
+        strong_break = centered
+                       || (short_now && (indent_now || just_changed))
+                       || (indent_now && just_changed && i>mlp->i1
+                           && mlp->indented[i-mlp->i1-1]);
 #if (WILLUSDEBUGX & 1)
 k2printf("    justflags[%d]=0x%2X, centered=%d, indented=%d\n",i-mlp->i1,justflags,centered,mlp->indented[i-mlp->i1]);
 #endif
         if (added_region->allow_text_wrapping)
             {
-            /* If this line is indented or if the justification has changed, */
-            /* then start a new line.                                        */
-            if (centered || mlp->indented[i-mlp->i1] || (i>mlp->i1 && (mlp->just[i-mlp->i1]&0xc)!=(mlp->just[i-mlp->i1-1]&0xc)))
+            /* Start a new wrapped line only on strong paragraph-break signals. */
+            if (strong_break)
 {
 #ifdef WILLUSDEBUG
 k2printf("wrapflush4\n");
@@ -2921,7 +2934,7 @@ printf("    Adding it atomically...\n");
                 bmpregion_one_row_wrap_and_add(newregion,k2settings,masterinfo,
                                            justflags,line_spacing,(int)(mlp->mean_row_gap+.5),
                                            marking_flags,mlp->indented[i-mlp->i1]);
-            if (centered || mlp->short_line[i-mlp->i1])
+            if (centered || (short_now && indent_now))
 {
 #ifdef WILLUSDEBUG
 k2printf("wrapflush5\n");
@@ -3265,10 +3278,16 @@ k2printf("    indent1=%g, i1f=%g, i2f=%g\n",indent1,i1f,i2f);
         if (!mlp->short_line[i-mlp->i1] && i<mlp->i2)
             {
             TEXTROW *t1;
+            double geom_short_ratio;
+
             t1=&textrows->textrow[i+1];
+            geom_short_ratio = !ragged_right ? del/(double)textheight
+                                             : del/(double)(region->c2-region->c1);
             if ((textrow->h5050 > t1->h5050*1.5 || textrow->h5050*1.5 < t1->h5050)
                   && (i==0 || (i>0 && (textrow->rowheight > t1->rowheight*1.5
-                                        || textrow->rowheight*1.5 < t1->rowheight))))
+                                        || textrow->rowheight*1.5 < t1->rowheight)))
+                  && ((!ragged_right && geom_short_ratio > 0.30)
+                       || (ragged_right && geom_short_ratio > 0.18)))
                 mlp->short_line[i-mlp->i1] = 1;
             }
         if (!ragged_right)
