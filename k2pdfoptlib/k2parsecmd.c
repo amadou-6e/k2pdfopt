@@ -410,6 +410,12 @@ int parse_cmd_args(K2PDFOPT_CONVERSION *k2conv,STRBUF *env,STRBUF *cmdline,
                 k2settings->src_left_to_right=(cl->cmdarg[2]=='-') ? 1 : 0;
             continue;
             }
+        if (!stricmp(cl->cmdarg,"-vmt") || !stricmp(cl->cmdarg,"-vmt-"))
+            {
+            if (setvals==1)
+                k2settings->src_vertical_margin_text=(cl->cmdarg[4]!='-');
+            continue;
+            }
         if (!stricmp(cl->cmdarg,"-bpm1") || !stricmp(cl->cmdarg,"-bpm2")
                                          || !stricmp(cl->cmdarg,"-bpm"))
             {

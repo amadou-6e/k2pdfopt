@@ -50,6 +50,7 @@ void k2pdfopt_settings_init(K2PDFOPT_SETTINGS *k2settings)
     k2settings->gtw_in=.0015; // detecting gap between words
     k2settings->show_usage[0]='\0';
     k2settings->src_left_to_right=1;
+    k2settings->src_vertical_margin_text=1;
     k2settings->src_whitethresh=-1;
     k2settings->src_paintwhite=0;
 #ifdef HAVE_OCR_LIB

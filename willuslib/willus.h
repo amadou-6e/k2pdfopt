@@ -1833,6 +1833,7 @@ int  wmupdf_remake_pdf(char *infile,char *outfile,WPDFPAGEINFO *pageinfo,int use
 int  wtextchars_fill_from_page(WTEXTCHARS *wtc,char *filename,int pageno,char *password);
 int  wtextchars_fill_from_page_ex(WTEXTCHARS *wtc,char *filename,int pageno,char *password,
                                  int boundingbox);
+int  wtextlines_fill_from_page(WTEXTCHARS *lines,char *filename,int pageno,char *password);
 WPDFOUTLINE *wpdfoutline_read_from_pdf_file(char *filename);
 void wmupdf_utf8_strbuf_from_pdf(STRBUF *sbuf,char *pdffile0,int pageno0,
                                  double left,double top,double right, double bottom);
