@@ -2067,10 +2067,15 @@ bmp_write(src,filename,stdout,100);
 
     if (ng>0)
         {
+        int max_expansion;
+
         /* Figure out total pixel expansion */
         newwidth = src->width*1.25;
         if (newwidth > jbmp->width)
             newwidth=jbmp->width;
+        max_expansion=ng*(src->height>4 ? src->height/4 : 1);
+        if (newwidth>src->width+max_expansion)
+            newwidth=src->width+max_expansion;
         }
     else
         newwidth=src->width;

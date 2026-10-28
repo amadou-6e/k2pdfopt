@@ -321,6 +321,7 @@ static void k2settings_to_cmd(STRBUF *cmdline,K2PDFOPT_SETTINGS *dst,
         }
     minus_check(cmdline,nongui,"-sp",&src->echo_source_page_count,dst->echo_source_page_count);
     minus_inverse(cmdline,NULL,"-r",&src->src_left_to_right,dst->src_left_to_right);
+    minus_check(cmdline,NULL,"-vmt",&src->src_vertical_margin_text,dst->src_vertical_margin_text);
     minus_check(cmdline,nongui,"-hy",&src->hyphen_detect,dst->hyphen_detect);
 #ifdef HAVE_GHOSTSCRIPT
     minus_check(cmdline,NULL,"-ppgs",&src->ppgs,dst->ppgs);

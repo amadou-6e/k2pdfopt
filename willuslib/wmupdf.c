@@ -30,7 +30,13 @@
 
 #ifdef HAVE_MUPDF_LIB
 #include <mupdf/pdf.h>
-void pdf_install_load_system_font_funcs(fz_context *ctx);
+/*
+** Newer MuPDF builds may not export this optional hook. Keep calls as no-op
+** so linking still succeeds while preserving compatibility with older forks.
+*/
+#ifndef pdf_install_load_system_font_funcs
+#define pdf_install_load_system_font_funcs(ctx) ((void)(ctx))
+#endif
 
 static void info_update(fz_context *ctx,pdf_document *xref,char *producer,char *author,char *title);
 static void dict_put_string(fz_context *ctx,pdf_obj *dict,char *key,char *string);
@@ -1377,6 +1383,12 @@ int wtextchars_fill_from_page(WTEXTCHARS *wtc,char *filename,int pageno,char *pa
     return(wtextchars_fill_from_page_ex(wtc,filename,pageno,password,0));
     }
 
+int wtextlines_fill_from_page(WTEXTCHARS *lines,char *filename,int pageno,char *password)
+
+    {
+    return(wtextchars_fill_from_page_ex(lines,filename,pageno,password,2));
+    }
+
 
 /*
 ** CHARACTER POSITION MAPS
@@ -1396,6 +1408,7 @@ int wtextchars_fill_from_page_ex(WTEXTCHARS *wtc,char *filename,int pageno,char 
     fz_stext_page *text=NULL;
     fz_device *dev=NULL;
     fz_rect bounds;
+    fz_stext_options options={0};
 
     fz_var(doc);
     ctx=fz_new_context(NULL,NULL,FZ_STORE_DEFAULT);
@@ -1456,10 +1469,12 @@ int wtextchars_fill_from_page_ex(WTEXTCHARS *wtc,char *filename,int pageno,char 
             {
             /* options= FZ_STEXT_PRESERVE_LIGATURES | FZ_STEXT_PRESERVE_WHITESPACE; */
             /* Do not preserve ligatures or white space */
+            if (boundingbox==2)
+                options.flags=FZ_STEXT_PRESERVE_IMAGES;
             if (list)
-                text=fz_new_stext_page_from_display_list(ctx,list,NULL);
+                text=fz_new_stext_page_from_display_list(ctx,list,&options);
             else
-                text=fz_new_stext_page_from_page(ctx,page,NULL);
+                text=fz_new_stext_page_from_page(ctx,page,&options);
 /*
             dev=fz_new_stext_device(ctx,textsheet,text,options);
             if (list)
@@ -1500,6 +1515,21 @@ int wtextchars_fill_from_page_ex(WTEXTCHARS *wtc,char *filename,int pageno,char 
     }
 
 
+static void wtextchars_add_line_box(WTEXTCHARS *lines,fz_rect bounds,int kind)
+
+    {
+    WTEXTCHAR box;
+
+    memset(&box,0,sizeof(box));
+    box.ucs=kind;
+    box.x1=bounds.x0;
+    box.y1=bounds.y0;
+    box.x2=bounds.x1;
+    box.y2=bounds.y1;
+    wtextchars_add_wtextchar(lines,&box);
+    }
+
+
 static void wtextchars_add_fz_chars(WTEXTCHARS *wtc,fz_context *ctx,fz_stext_page *page,
                                     int boundingbox)
 
@@ -1512,12 +1542,20 @@ static void wtextchars_add_fz_chars(WTEXTCHARS *wtc,fz_context *ctx,fz_stext_pag
         {
         fz_stext_line *line;
 
+        if (boundingbox==2 && block->type==FZ_STEXT_BLOCK_IMAGE)
+            wtextchars_add_line_box(wtc,block->bbox,2);
         if (block->type != FZ_STEXT_BLOCK_TEXT)
             continue;
         for (line=block->u.t.first_line;line;line=line->next)
             {
             fz_stext_char *ch;
 
+            if (boundingbox==2)
+                {
+                wtextchars_add_line_box(wtc,line->bbox,
+                     fabs(line->dir.x)<0.1 && fabs(line->dir.y)>0.9 ? 1 : 0);
+                continue;
+                }
             for (ch = line->first_char;ch;ch=ch->next)
                 {
                 fz_quad quad;
