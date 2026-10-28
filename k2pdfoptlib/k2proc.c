@@ -74,6 +74,8 @@ static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *
                                     MASTERINFO *masterinfo,int justflags,int line_spacing,
                                            int mean_row_gap,int marking_flags,int pi,
                                            int *bullet_indent,int *bullet_text_start);
+static void bmpregion_whiteout_vertical_margin_text(BMPREGION *region,
+                  K2PDFOPT_SETTINGS *k2settings,MASTERINFO *masterinfo);
 
 
 /*
@@ -166,7 +168,7 @@ void bmpregion_source_page_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
 
     /* White-out all crop boxes with K2CROPBOX_FLAGS_IGNOREBOXEDAREA set */
     bmpregion_whiteout_cropboxes(region,k2settings,masterinfo);
-
+    bmpregion_whiteout_vertical_margin_text(region,k2settings,masterinfo);
 
     gridded = (k2settings->src_grid_cols > 0 && k2settings->src_grid_rows > 0);
     if (!k2settings_has_cropboxes(k2settings) && !gridded)
@@ -190,6 +192,111 @@ void bmpregion_source_page_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
         bmpregion_source_box_process(&pageregions->pageregion[i].bmpregion,
                                      k2settings,masterinfo,level,pages_done); 
     pageregions_free(pageregions);
+    }
+
+
+static void bmpregion_whiteout_vertical_margin_text(BMPREGION *region,
+                              K2PDFOPT_SETTINGS *k2settings,MASTERINFO *masterinfo)
+
+    {
+#ifdef HAVE_MUPDF_LIB
+    WTEXTCHARS lines;
+    double left,right,scale;
+    int index,horizontal,vertical;
+    char *extension;
+
+    extension=strrchr(masterinfo->srcfilename,'.');
+    if (!k2settings->src_vertical_margin_text || k2settings->use_crop_boxes
+            || extension==NULL || stricmp(extension,".pdf")
+            || fabs(masterinfo->pageinfo.srcpage_rot_deg)>0.01
+            || fabs(masterinfo->pageinfo.srcpage_fine_rot_deg)>0.01
+            || fabs(masterinfo->document_scale_factor-1.)>0.0001
+            || region->bmp8==NULL)
+        return;
+    wtextchars_init(&lines);
+    if (wtextlines_fill_from_page(&lines,masterinfo->srcfilename,
+                                  masterinfo->pageinfo.srcpage,"")!=0)
+        {
+        wtextchars_free(&lines);
+        return;
+        }
+    scale=region->dpi/72.;
+    left=lines.width;
+    right=0.;
+    horizontal=vertical=0;
+    if (fabs(lines.width*scale-region->bmp8->width)>2.
+            || fabs(lines.height*scale-region->bmp8->height)>2.)
+        goto done;
+    for (index=0;index<lines.n;index++)
+        {
+        WTEXTCHAR *box;
+
+        box=&lines.wtextchar[index];
+        if (box->ucs==1)
+            vertical++;
+        else if (box->ucs==0)
+            {
+            horizontal++;
+            if (box->x1<left)
+                left=box->x1;
+            if (box->x2>right)
+                right=box->x2;
+            }
+        }
+    if (horizontal==0 || vertical*4>horizontal)
+        goto done;
+    for (index=0;index<lines.n;index++)
+        {
+        WTEXTCHAR *box;
+        int other,pass;
+
+        box=&lines.wtextchar[index];
+        if (box->ucs!=1 || box->y2-box->y1<lines.height*.15
+                || box->x2-box->x1>lines.width*.06
+                || box->x1<0. || box->y1<0.
+                || box->x2>lines.width || box->y2>lines.height
+                || !((box->x2+2.<left && box->x2<lines.width*.12)
+                     || (box->x1-2.>right && box->x1>lines.width*.88)))
+            continue;
+        for (other=0;other<lines.n;other++)
+            {
+            WTEXTCHAR *protected;
+
+            protected=&lines.wtextchar[other];
+            if (protected->ucs!=1
+                    && protected->x1<box->x2+2. && protected->x2>box->x1-2.
+                    && protected->y1<box->y2+2. && protected->y2>box->y1-2.)
+                break;
+            }
+        if (other<lines.n)
+            continue;
+        for (pass=0;pass<2;pass++)
+            {
+            WILLUSBITMAP *bitmap;
+            int column1,column2,row1,row2,row,bytes;
+
+            bitmap=pass==0 ? region->bmp8 : region->bmp;
+            if (bitmap==NULL)
+                continue;
+            column1=(int)floor((box->x1-1.)*scale);
+            column2=(int)ceil((box->x2+1.)*scale)-1;
+            row1=(int)floor((box->y1-1.)*scale);
+            row2=(int)ceil((box->y2+1.)*scale)-1;
+            if (column1<0) column1=0;
+            if (row1<0) row1=0;
+            if (column2>=bitmap->width) column2=bitmap->width-1;
+            if (row2>=bitmap->height) row2=bitmap->height-1;
+            bytes=bitmap->bpp/8;
+            if (column2<column1 || row2<row1 || (bytes!=1 && bytes!=3))
+                continue;
+            for (row=row1;row<=row2;row++)
+                memset(bmp_rowptr_from_top(bitmap,row)+column1*bytes,255,
+                       (column2-column1+1)*bytes);
+            }
+        }
+done:
+    wtextchars_free(&lines);
+#endif
     }
 
 
