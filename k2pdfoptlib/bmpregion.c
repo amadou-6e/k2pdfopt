@@ -2202,6 +2202,13 @@ printf("    expected=%g\n",expected);
     /* If ngaps==1, use historicals?? */
     if (k2settings->word_spacing>=0. || ngaps<2)
         return((int)(fabs(k2settings->word_spacing)*dr+.5));
+    if (ngaps>2 && expected>=3.5 && gw[0]>2*gw[1]
+            && gw[1]>=fabs(k2settings->word_spacing)*dr)
+        {
+        gw++;
+        copt++;
+        ngaps--;
+        }
     if (expected<0.1)
         expected=0.1;
     willus_dmem_alloc_warn(36,(void **)&dgap,sizeof(int)*ngaps*2,funcname,10);
