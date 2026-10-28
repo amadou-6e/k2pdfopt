@@ -72,7 +72,8 @@ static void textrow_mark_source(TEXTROW *textrow,BMPREGION *region,MASTERINFO *m
                                 K2PDFOPT_SETTINGS *k2settings,int marking_flags);
 static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
                                     MASTERINFO *masterinfo,int justflags,int line_spacing,
-                                    int mean_row_gap,int marking_flags,int pi);
+                                           int mean_row_gap,int marking_flags,int pi,
+                                           int *bullet_indent,int *bullet_text_start);
 
 
 /*
@@ -2799,11 +2800,12 @@ static void bmpregion_analyze_justification_and_line_spacing(ADDED_REGION_INFO *
                                      K2PDFOPT_SETTINGS *k2settings,MASTERINFO *masterinfo)
 
     {
-    int i;
+    int i,bullet_indent,bullet_text_start;
     TEXTROWS *textrows;
     MULTILINE_PARAMS *mlp,_mlp;
     BMPREGION *region;
 
+    bullet_indent=bullet_text_start=0;
     region=added_region->region;
     mlp=&_mlp;
     multiline_params_init(mlp);
@@ -2933,7 +2935,8 @@ printf("    Adding it atomically...\n");
             else
                 bmpregion_one_row_wrap_and_add(newregion,k2settings,masterinfo,
                                            justflags,line_spacing,(int)(mlp->mean_row_gap+.5),
-                                           marking_flags,mlp->indented[i-mlp->i1]);
+                                           marking_flags,mlp->indented[i-mlp->i1],
+                                           &bullet_indent,&bullet_text_start);
             if (centered || mlp->short_line[i-mlp->i1])
 {
 #ifdef WILLUSDEBUG
@@ -3533,7 +3536,8 @@ static void textrow_mark_source(TEXTROW *textrow,BMPREGION *region,MASTERINFO *m
 */
 static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
                                            MASTERINFO *masterinfo,int justflags,int line_spacing,
-                                           int mean_row_gap,int marking_flags,int pi)
+                                           int mean_row_gap,int marking_flags,int pi,
+                                           int *bullet_indent,int *bullet_text_start)
 
     {
     int nc,i,i0,gappix;
@@ -3541,7 +3545,7 @@ static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *
     WRAPBMP *wrapbmp;
     TEXTWORDS *textwords;
     TEXTWORD *textword;
-    int n;
+    int n,is_bullet;
 
     if (region->textrows.n>0)
         {
@@ -3566,6 +3570,7 @@ static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *
     textwords=&newregion->textrows;
     textword=textwords->textrow;
     n=textwords->n;
+    is_bullet=0;
     if (k2settings->src_left_to_right && n>1 && newregion->bbox.lcheight>0)
         {
         BMPREGION marker;
@@ -3583,12 +3588,22 @@ static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *
                 && marker_width <= letter_height*0.8
                 && marker_height >= letter_height*0.18
                 && marker_height <= letter_height*0.8
+                && marker_width >= marker_height*0.65
+                && marker_width <= marker_height*1.55
                 && marker.r2 < region->bbox.rowbase-letter_height*0.1
                 && textword[1].c1-textword[0].c2 > letter_height*0.3)
+            {
             wrapbmp_flush(masterinfo,k2settings,0);
+            is_bullet=1;
+            *bullet_indent=textword[1].c1-textword[0].c1;
+            *bullet_text_start=textword[1].c1;
+            }
         bmpregion_free(&marker);
         }
-    if (pi && n>0)
+    if (!is_bullet && (n==0 || !k2settings->src_left_to_right
+            || abs(textword[0].c1-*bullet_text_start)>newregion->bbox.lcheight*0.8))
+        *bullet_indent=0;
+    if (pi && n>0 && *bullet_indent==0)
         {
         if (k2settings->src_left_to_right)
             textword[0].c1=region->c1;
@@ -3650,6 +3665,8 @@ k2printf("    textword[%d] = %d - %d\n",i,textword[i].c1,textword[i].c2);
             i2=k2settings->src_left_to_right ? i : n-1-i0;
             rw=(textword[i2].c2-textword[i1].c1+1);
             remaining_width_pixels = wrapbmp_remaining(wrapbmp,k2settings);
+            if (wrapbmp_width(wrapbmp)==0 && !(is_bullet && i0==0))
+                remaining_width_pixels -= *bullet_indent;
             toolong = (rw+wordgap > remaining_width_pixels);
 #if (WILLUSDEBUGX & 4)
 k2printf("    i1=%d, i2=%d, rw=%d, rw+gap=%d, remainder=%d, toolong=%d\n",i1,i2,rw,rw+wordgap,remaining_width_pixels,toolong);
@@ -3708,6 +3725,8 @@ printf("wrapregion lcheight=%2d (source lch=%2d)\n",reg.bbox.lcheight,region->bb
         reg.bbox.rowbase = region->bbox.rowbase;
         reg.bbox.gap = mean_row_gap;
         /* Add it to the existing line queue */
+        if (wrapbmp_width(wrapbmp)==0)
+            wrapbmp->line_indent=(is_bullet && i0==0) ? 0 : *bullet_indent;
         wrapbmp_add(wrapbmp,&reg,k2settings,masterinfo,gappix,justflags);
         bmpregion_free(&reg);
         if (toolong)

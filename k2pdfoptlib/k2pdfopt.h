@@ -649,6 +649,7 @@ typedef struct
     int maxgap;
     int height_extended;
     int just_flushed_internal;
+    int line_indent;
     int mandatory_region_gap; /* Copies from masterinfo at wrapbmp_add, reset at wrapbmp_flush */
     double page_region_gap_in;  /* Copies from masterinfo like mandatory_region_gap */
     TEXTROW textrow;  /* Keep text line statistics */

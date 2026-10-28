@@ -53,6 +53,7 @@ static void wrapbmp_reset(WRAPBMP *wrapbmp)
     wrapbmp->rhmax=-1;
     wrapbmp->thmax=-1;
     wrapbmp->hyphen.ch=-1;
+    wrapbmp->line_indent=0;
     /* wrapbmp->height_extended=0; *//* Not used anymore as of v2.00 */
     wrapbmp->mandatory_region_gap=-1;
     wrapbmp->page_region_gap_in=-1.;
@@ -215,14 +216,16 @@ bmpregion_write(region,filename);
 #if (WILLUSDEBUGX & 4)
 k2printf("    bmpheight set to %d (line spacing=%d)\n",wrapbmp->bmp.height,wrapbmp->textrow.rowheight);
 #endif
-        wrapbmp->bmp.width=region->c2-region->c1+1;
+        wrapbmp->bmp.width=region->c2-region->c1+1+wrapbmp->line_indent;
         bmp_alloc(&wrapbmp->bmp);
         bw=bmp_bytewidth(&wrapbmp->bmp);
         memset(bmp_rowptr_from_top(&wrapbmp->bmp,0),255,bw*wrapbmp->bmp.height);
+        bw=bpp*(region->c2-region->c1+1);
         for (i=region->r1;i<=region->r2;i++)
             {
             unsigned char *d,*s;
-            d=bmp_rowptr_from_top(&wrapbmp->bmp,wrapbmp->base+(i-region->bbox.rowbase));
+            d=bmp_rowptr_from_top(&wrapbmp->bmp,wrapbmp->base+(i-region->bbox.rowbase))
+                     + bpp*wrapbmp->line_indent;
             s=bmp_rowptr_from_top(k2settings->dst_color?region->bmp:region->bmp8,i)+bpp*region->c1;
             memcpy(d,s,bw);
             }
@@ -240,8 +243,8 @@ exit(10);
             {
             wrapbmp->hyphen.r1 += (wrapbmp->base-region->bbox.rowbase);
             wrapbmp->hyphen.r2 += (wrapbmp->base-region->bbox.rowbase);
-            wrapbmp->hyphen.ch -= region->c1;
-            wrapbmp->hyphen.c2 -= region->c1;
+            wrapbmp->hyphen.ch += wrapbmp->line_indent-region->c1;
+            wrapbmp->hyphen.c2 += wrapbmp->line_indent-region->c1;
             }
         /* Map to source page */
         {
@@ -255,7 +258,7 @@ exit(10);
         wrmap->srcrot = region->rotdeg;
         wrmap->coords[0].x = region->c1;
         wrmap->coords[0].y = region->r1;
-        wrmap->coords[1].x = 0;
+        wrmap->coords[1].x = wrapbmp->line_indent;
         wrmap->coords[1].y = wrapbmp->base+(region->r1-region->bbox.rowbase);
         wrmap->coords[2].x = region->c2-region->c1+1;
         wrmap->coords[2].y = region->r2-region->r1+1;
