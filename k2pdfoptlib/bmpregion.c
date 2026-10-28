@@ -1284,6 +1284,125 @@ k2printf("    Not centered (not enough obviously centered lines).\n");
 ** the TEXTROWS structure.
 **
 */
+static void bmpregion_group_ruled_tables(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings)
+
+    {
+    int rows[128],bottom[128],left[128],right[128],nr,row,minwidth,tolerance,start;
+    TEXTROWS *textrows;
+
+    textrows=&region->textrows;
+    if (textrows->n<4)
+        return;
+    nr=0;
+    minwidth=(region->c2-region->c1+1)/2;
+    if (minwidth<region->dpi)
+        minwidth=region->dpi;
+    tolerance=region->dpi*.03+1;
+    for (row=region->r1;row<=region->r2;row++)
+        {
+        unsigned char *pixels;
+        int first,last,count;
+
+        count=bmpregion_row_black_count(region,row);
+        if (count<minwidth)
+            continue;
+        pixels=bmp_rowptr_from_top(region->bmp8,row);
+        for (first=region->c1;first<=region->c2 && pixels[first]>=region->bgcolor;first++);
+        for (last=region->c2;last>first && pixels[last]>=region->bgcolor;last--);
+        if (last-first+1<minwidth || count<.97*(last-first+1))
+            continue;
+        if (nr>0 && row-rows[nr-1]<=region->dpi*.025+1
+                && abs(first-left[nr-1])<=tolerance && abs(last-right[nr-1])<=tolerance)
+            {
+            bottom[nr-1]=row;
+            continue;
+            }
+        if (nr==128)
+            return;
+        rows[nr]=row;
+        bottom[nr]=row;
+        left[nr]=first;
+        right[nr++]=last;
+        }
+    for (start=0;start+2<nr;start++)
+        {
+        int middle,end,first,last,index,edge_tolerance,table_left,table_right,caption_row;
+        TEXTROW *table;
+
+        middle=start+1;
+        end=start+2;
+        edge_tolerance=(right[start]-left[start]+1)*.02;
+        if (edge_tolerance<tolerance)
+            edge_tolerance=tolerance;
+        if (rows[middle]-rows[start]>region->dpi*.5
+                || rows[end]-rows[start]<region->dpi*.35
+                || rows[end]-rows[start]>region->dpi*3.
+                || abs(left[start]-left[middle])>edge_tolerance
+                || abs(left[start]-left[end])>edge_tolerance
+                || abs(right[start]-right[middle])>edge_tolerance
+                || abs(right[start]-right[end])>edge_tolerance)
+            continue;
+        if ((start>0 && rows[start]-rows[start-1]<region->dpi*.5
+                && abs(left[start]-left[start-1])<=edge_tolerance
+                && abs(right[start]-right[start-1])<=edge_tolerance)
+                || (end+1<nr && rows[end+1]-rows[end]<region->dpi*.5
+                && abs(left[start]-left[end+1])<=edge_tolerance
+                && abs(right[start]-right[end+1])<=edge_tolerance))
+            continue;
+        for (first=0;first<textrows->n && textrows->textrow[first].r2<rows[start];first++);
+        for (last=first;last<textrows->n && textrows->textrow[last].r1<=rows[end];last++);
+        last--;
+        if (last-first<3)
+            continue;
+        if (textrows->textrow[first].r1<rows[start]-tolerance)
+            continue;
+        table_left=left[start];
+        table_right=right[start];
+        for (index=middle;index<=end;index++)
+            {
+            if (left[index]<table_left)
+                table_left=left[index];
+            if (right[index]>table_right)
+                table_right=right[index];
+            }
+        caption_row=(textrows->textrow[last].r2>bottom[end]+tolerance);
+        for (index=first;index<=last-caption_row;index++)
+            if (textrows->textrow[index].c1<table_left-tolerance
+                    || textrows->textrow[index].c2>table_right+tolerance)
+                break;
+        if (index<=last-caption_row)
+            continue;
+        if (caption_row)
+            {
+            BMPREGION caption;
+
+            bmpregion_init(&caption);
+            bmpregion_copy(&caption,region,0);
+            caption.r1=bottom[end]+1;
+            caption.r2=textrows->textrow[last].r2;
+            caption.bbox.type=0;
+            bmpregion_calc_bbox(&caption,k2settings,1);
+            textrows->textrow[last]=caption.bbox;
+            textrows->textrow[last].rat=0.;
+            textrows->textrow[last].type=REGION_TYPE_TEXTLINE;
+            bmpregion_free(&caption);
+            last--;
+            }
+        table=&textrows->textrow[first];
+        table->c1=table_left;
+        table->c2=table_right;
+        table->r1=rows[start];
+        table->r2=bottom[end];
+        table->rowbase=table->r2;
+        table->type=REGION_TYPE_FIGURE;
+        for (index=last;index>first;index--)
+            textrows_delete_one(textrows,index);
+        start=end;
+        }
+    textrows_compute_row_gaps(textrows,region->r2);
+    }
+
+
 void bmpregion_find_textrows(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
                              int dynamic_aperture,
                              int remove_small_rows,double minrowgap,
@@ -1631,6 +1750,8 @@ tr=&textrows->textrow[i];
 printf("    %2d %4d-%4d %4d-%4d %4d %3d %3d %3d %3d %3d %3d   %s\n",i,tr->c1,tr->c2,tr->r1,tr->r2,tr->rowbase,tr->r2-tr->r1+1,tr->lcheight,tr->h5050,tr->capheight,tr->gap,tr->gapblank,tt[tr->type]);
 }
 #endif
+
+    bmpregion_group_ruled_tables(region,k2settings);
 
     if (textrows->n>1)
         region->bbox.type = REGION_TYPE_MULTILINE;

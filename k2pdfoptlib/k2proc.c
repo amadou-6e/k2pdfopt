@@ -3029,7 +3029,7 @@ printf("    Adding it atomically...\n");
                 new_added_region.justification_flags=0;
                 new_added_region.caller_id=2;
                 /* new_added_region.mark_flags=0xf; */
-                new_added_region.rowbase_delta = textrow[i].r2-textrow[i].rowbase;
+                new_added_region.rowbase_delta = textrow->r2-textrow->rowbase;
                 new_added_region.region_is_centered = -1;
                 new_added_region.notes=0;
                 new_added_region.count=0;
