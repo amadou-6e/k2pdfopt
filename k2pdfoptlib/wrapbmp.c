@@ -53,6 +53,7 @@ static void wrapbmp_reset(WRAPBMP *wrapbmp)
     wrapbmp->rhmax=-1;
     wrapbmp->thmax=-1;
     wrapbmp->hyphen.ch=-1;
+    wrapbmp->line_indent=0;
     /* wrapbmp->height_extended=0; *//* Not used anymore as of v2.00 */
     wrapbmp->mandatory_region_gap=-1;
     wrapbmp->page_region_gap_in=-1.;
@@ -215,14 +216,16 @@ bmpregion_write(region,filename);
 #if (WILLUSDEBUGX & 4)
 k2printf("    bmpheight set to %d (line spacing=%d)\n",wrapbmp->bmp.height,wrapbmp->textrow.rowheight);
 #endif
-        wrapbmp->bmp.width=region->c2-region->c1+1;
+        wrapbmp->bmp.width=region->c2-region->c1+1+wrapbmp->line_indent;
         bmp_alloc(&wrapbmp->bmp);
         bw=bmp_bytewidth(&wrapbmp->bmp);
         memset(bmp_rowptr_from_top(&wrapbmp->bmp,0),255,bw*wrapbmp->bmp.height);
+        bw=bpp*(region->c2-region->c1+1);
         for (i=region->r1;i<=region->r2;i++)
             {
             unsigned char *d,*s;
-            d=bmp_rowptr_from_top(&wrapbmp->bmp,wrapbmp->base+(i-region->bbox.rowbase));
+            d=bmp_rowptr_from_top(&wrapbmp->bmp,wrapbmp->base+(i-region->bbox.rowbase))
+                     + bpp*wrapbmp->line_indent;
             s=bmp_rowptr_from_top(k2settings->dst_color?region->bmp:region->bmp8,i)+bpp*region->c1;
             memcpy(d,s,bw);
             }
@@ -240,8 +243,8 @@ exit(10);
             {
             wrapbmp->hyphen.r1 += (wrapbmp->base-region->bbox.rowbase);
             wrapbmp->hyphen.r2 += (wrapbmp->base-region->bbox.rowbase);
-            wrapbmp->hyphen.ch -= region->c1;
-            wrapbmp->hyphen.c2 -= region->c1;
+            wrapbmp->hyphen.ch += wrapbmp->line_indent-region->c1;
+            wrapbmp->hyphen.c2 += wrapbmp->line_indent-region->c1;
             }
         /* Map to source page */
         {
@@ -255,7 +258,7 @@ exit(10);
         wrmap->srcrot = region->rotdeg;
         wrmap->coords[0].x = region->c1;
         wrmap->coords[0].y = region->r1;
-        wrmap->coords[1].x = 0;
+        wrmap->coords[1].x = wrapbmp->line_indent;
         wrmap->coords[1].y = wrapbmp->base+(region->r1-region->bbox.rowbase);
         wrmap->coords[2].x = region->c2-region->c1+1;
         wrmap->coords[2].y = region->r2-region->r1+1;
@@ -403,7 +406,9 @@ void wrapbmp_flush(MASTERINFO *masterinfo,K2PDFOPT_SETTINGS *k2settings,
     BMPREGION region;
     WILLUSBITMAP *bmp8,_bmp8;
     int just;
+    int maxpix,wmax;
     WRAPBMP *wrapbmp;
+    double stretch_ratio,fill_ratio;
     /*
     int gap,nomss,dh;
     */
@@ -478,8 +483,40 @@ k2printf("Bitmap is %d x %d (baseline=%d)\n",wrapbmp->bmp.width,wrapbmp->bmp.hei
     region.bbox.gapblank=wrapbmp->textrow.gapblank;
     region.bbox.type=REGION_TYPE_TEXTLINE;
     region.wrectmaps=&wrapbmp->wrectmaps;
+    /*
+    ** Compute stretch budget (maxpix) and destination display width (wmax) once
+    ** so we can enforce a constant scale factor across all lines on this page.
+    */
+    stretch_ratio=1.0;
+    maxpix=0;
+    wmax=0;
+    if (k2settings->reflow_stretch_enable && k2settings->text_wrap!=0)
+        {
+        int dstmar_pixels[4];
+        stretch_ratio=k2settings->reflow_stretch_ratio;
+        if (stretch_ratio < 1.0)
+            stretch_ratio=1.0;
+        if (k2settings->reflow_stretch_max_ratio > 1.0
+                && stretch_ratio > k2settings->reflow_stretch_max_ratio)
+            stretch_ratio=k2settings->reflow_stretch_max_ratio;
+        maxpix=(int)(k2settings->max_region_width_inches*k2settings->src_dpi*stretch_ratio+0.5);
+        if (maxpix < 1)
+            maxpix=1;
+        fill_ratio=(double)wrapbmp->bmp.width/maxpix;
+        get_dest_margins(dstmar_pixels,k2settings,(double)k2settings->dst_dpi,
+                         masterinfo->bmp.width,k2settings->dst_height);
+        wmax=masterinfo->bmp.width-dstmar_pixels[0]-dstmar_pixels[2];
+        if (wmax < 1)
+            wmax=1;
+        }
     if (!allow_full_justification)
+        {
+        /*
+        ** In stretch mode, never apply full justification to paragraph-end lines.
+        ** This prevents ugly stretched spacing on short terminal lines.
+        */
         just = (wrapbmp->just & 0xcf) | 0x20;
+        }
     else
         just = wrapbmp->just;
 
@@ -562,7 +599,15 @@ printf("wrapbmp_flush calling bmpregion_add() w/bbox.rowheight=%d\n",region.bbox
     added_region.allow_text_wrapping=0;
     added_region.trim_flags=0;
     added_region.allow_vertical_breaks=0;
-    added_region.force_scale=-1.0;
+    /*
+    ** In stretch mode, enforce a constant scale factor (wmax/maxpix) for every
+    ** reflowed line so all text on the page is rendered at the same size,
+    ** regardless of how many words ended up on each line.
+    */
+    if (k2settings->reflow_stretch_enable && k2settings->text_wrap!=0 && maxpix>0)
+        added_region.force_scale=(double)wmax/maxpix;
+    else
+        added_region.force_scale=-1.0;
     added_region.justification_flags=just;
     added_region.caller_id=2;
     /* added_region.mark_flags=0xf; */

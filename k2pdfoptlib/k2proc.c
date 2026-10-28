@@ -72,7 +72,10 @@ static void textrow_mark_source(TEXTROW *textrow,BMPREGION *region,MASTERINFO *m
                                 K2PDFOPT_SETTINGS *k2settings,int marking_flags);
 static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
                                     MASTERINFO *masterinfo,int justflags,int line_spacing,
-                                    int mean_row_gap,int marking_flags,int pi);
+                                           int mean_row_gap,int marking_flags,int pi,
+                                           int *bullet_indent,int *bullet_text_start);
+static void bmpregion_whiteout_vertical_margin_text(BMPREGION *region,
+                  K2PDFOPT_SETTINGS *k2settings,MASTERINFO *masterinfo);
 
 
 /*
@@ -165,7 +168,7 @@ void bmpregion_source_page_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
 
     /* White-out all crop boxes with K2CROPBOX_FLAGS_IGNOREBOXEDAREA set */
     bmpregion_whiteout_cropboxes(region,k2settings,masterinfo);
-
+    bmpregion_whiteout_vertical_margin_text(region,k2settings,masterinfo);
 
     gridded = (k2settings->src_grid_cols > 0 && k2settings->src_grid_rows > 0);
     if (!k2settings_has_cropboxes(k2settings) && !gridded)
@@ -189,6 +192,111 @@ void bmpregion_source_page_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
         bmpregion_source_box_process(&pageregions->pageregion[i].bmpregion,
                                      k2settings,masterinfo,level,pages_done); 
     pageregions_free(pageregions);
+    }
+
+
+static void bmpregion_whiteout_vertical_margin_text(BMPREGION *region,
+                              K2PDFOPT_SETTINGS *k2settings,MASTERINFO *masterinfo)
+
+    {
+#ifdef HAVE_MUPDF_LIB
+    WTEXTCHARS lines;
+    double left,right,scale;
+    int index,horizontal,vertical;
+    char *extension;
+
+    extension=strrchr(masterinfo->srcfilename,'.');
+    if (!k2settings->src_vertical_margin_text || k2settings->use_crop_boxes
+            || extension==NULL || stricmp(extension,".pdf")
+            || fabs(masterinfo->pageinfo.srcpage_rot_deg)>0.01
+            || fabs(masterinfo->pageinfo.srcpage_fine_rot_deg)>0.01
+            || fabs(masterinfo->document_scale_factor-1.)>0.0001
+            || region->bmp8==NULL)
+        return;
+    wtextchars_init(&lines);
+    if (wtextlines_fill_from_page(&lines,masterinfo->srcfilename,
+                                  masterinfo->pageinfo.srcpage,"")!=0)
+        {
+        wtextchars_free(&lines);
+        return;
+        }
+    scale=region->dpi/72.;
+    left=lines.width;
+    right=0.;
+    horizontal=vertical=0;
+    if (fabs(lines.width*scale-region->bmp8->width)>2.
+            || fabs(lines.height*scale-region->bmp8->height)>2.)
+        goto done;
+    for (index=0;index<lines.n;index++)
+        {
+        WTEXTCHAR *box;
+
+        box=&lines.wtextchar[index];
+        if (box->ucs==1)
+            vertical++;
+        else if (box->ucs==0)
+            {
+            horizontal++;
+            if (box->x1<left)
+                left=box->x1;
+            if (box->x2>right)
+                right=box->x2;
+            }
+        }
+    if (horizontal==0 || vertical*4>horizontal)
+        goto done;
+    for (index=0;index<lines.n;index++)
+        {
+        WTEXTCHAR *box;
+        int other,pass;
+
+        box=&lines.wtextchar[index];
+        if (box->ucs!=1 || box->y2-box->y1<lines.height*.15
+                || box->x2-box->x1>lines.width*.06
+                || box->x1<0. || box->y1<0.
+                || box->x2>lines.width || box->y2>lines.height
+                || !((box->x2+2.<left && box->x2<lines.width*.12)
+                     || (box->x1-2.>right && box->x1>lines.width*.88)))
+            continue;
+        for (other=0;other<lines.n;other++)
+            {
+            WTEXTCHAR *protected;
+
+            protected=&lines.wtextchar[other];
+            if (protected->ucs!=1
+                    && protected->x1<box->x2+2. && protected->x2>box->x1-2.
+                    && protected->y1<box->y2+2. && protected->y2>box->y1-2.)
+                break;
+            }
+        if (other<lines.n)
+            continue;
+        for (pass=0;pass<2;pass++)
+            {
+            WILLUSBITMAP *bitmap;
+            int column1,column2,row1,row2,row,bytes;
+
+            bitmap=pass==0 ? region->bmp8 : region->bmp;
+            if (bitmap==NULL)
+                continue;
+            column1=(int)floor((box->x1-1.)*scale);
+            column2=(int)ceil((box->x2+1.)*scale)-1;
+            row1=(int)floor((box->y1-1.)*scale);
+            row2=(int)ceil((box->y2+1.)*scale)-1;
+            if (column1<0) column1=0;
+            if (row1<0) row1=0;
+            if (column2>=bitmap->width) column2=bitmap->width-1;
+            if (row2>=bitmap->height) row2=bitmap->height-1;
+            bytes=bitmap->bpp/8;
+            if (column2<column1 || row2<row1 || (bytes!=1 && bytes!=3))
+                continue;
+            for (row=row1;row<=row2;row++)
+                memset(bmp_rowptr_from_top(bitmap,row)+column1*bytes,255,
+                       (column2-column1+1)*bytes);
+            }
+        }
+done:
+    wtextchars_free(&lines);
+#endif
     }
 
 
@@ -1496,7 +1604,11 @@ wfile_written_info(filename,stdout);
         }
 
     if (added_region->force_scale > 0.)
+        {
         w = (int)(added_region->force_scale*bmp->width+0.5);
+        if (w > wmax)
+            w = wmax;
+        }
     else
         {
         if (region_width_inches < k2settings->max_region_width_inches)
@@ -2795,11 +2907,12 @@ static void bmpregion_analyze_justification_and_line_spacing(ADDED_REGION_INFO *
                                      K2PDFOPT_SETTINGS *k2settings,MASTERINFO *masterinfo)
 
     {
-    int i;
+    int i,bullet_indent,bullet_text_start;
     TEXTROWS *textrows;
     MULTILINE_PARAMS *mlp,_mlp;
     BMPREGION *region;
 
+    bullet_indent=bullet_text_start=0;
     region=added_region->region;
     mlp=&_mlp;
     multiline_params_init(mlp);
@@ -2834,6 +2947,7 @@ k2printf("Processing text row by row (text wrapping on)...\n");
         {
         TEXTROW *textrow;
         int justflags,trimflags,centered,marking_flags,line_spacing;
+        int just_changed,indent_now,short_now,strong_break;
         BMPREGION *newregion,_newregion;
 
         textrow=&textrows->textrow[i];
@@ -2860,14 +2974,26 @@ k2printf("    linespacing=%3d\n",line_spacing);
         /* The |3 tells it to use the user settings for left/right/center */
         justflags = mlp->just[i-mlp->i1]|0x3;
         centered=((justflags&0xc)==4);
+        just_changed = (i>mlp->i1
+                        && (mlp->just[i-mlp->i1]&0xc)!=(mlp->just[i-mlp->i1-1]&0xc));
+        indent_now = mlp->indented[i-mlp->i1];
+        short_now = mlp->short_line[i-mlp->i1];
+        /*
+        ** Require more than one weak signal before forcing a paragraph break.
+        ** This makes inline emphasis / transient spacing less likely to split
+        ** paragraphs while preserving strong structural breaks.
+        */
+        strong_break = centered
+                       || (short_now && (indent_now || just_changed))
+                       || (indent_now && just_changed && i>mlp->i1
+                           && mlp->indented[i-mlp->i1-1]);
 #if (WILLUSDEBUGX & 1)
 k2printf("    justflags[%d]=0x%2X, centered=%d, indented=%d\n",i-mlp->i1,justflags,centered,mlp->indented[i-mlp->i1]);
 #endif
         if (added_region->allow_text_wrapping)
             {
-            /* If this line is indented or if the justification has changed, */
-            /* then start a new line.                                        */
-            if (centered || mlp->indented[i-mlp->i1] || (i>mlp->i1 && (mlp->just[i-mlp->i1]&0xc)!=(mlp->just[i-mlp->i1-1]&0xc)))
+            /* Start a new wrapped line only on strong paragraph-break signals. */
+            if (strong_break)
 {
 #ifdef WILLUSDEBUG
 k2printf("wrapflush4\n");
@@ -2916,7 +3042,8 @@ printf("    Adding it atomically...\n");
             else
                 bmpregion_one_row_wrap_and_add(newregion,k2settings,masterinfo,
                                            justflags,line_spacing,(int)(mlp->mean_row_gap+.5),
-                                           marking_flags,mlp->indented[i-mlp->i1]);
+                                           marking_flags,mlp->indented[i-mlp->i1],
+                                           &bullet_indent,&bullet_text_start);
             if (centered || mlp->short_line[i-mlp->i1])
 {
 #ifdef WILLUSDEBUG
@@ -3261,10 +3388,16 @@ k2printf("    indent1=%g, i1f=%g, i2f=%g\n",indent1,i1f,i2f);
         if (!mlp->short_line[i-mlp->i1] && i<mlp->i2)
             {
             TEXTROW *t1;
+            double geom_short_ratio;
+
             t1=&textrows->textrow[i+1];
+            geom_short_ratio = !ragged_right ? del/(double)textheight
+                                             : del/(double)(region->c2-region->c1);
             if ((textrow->h5050 > t1->h5050*1.5 || textrow->h5050*1.5 < t1->h5050)
                   && (i==0 || (i>0 && (textrow->rowheight > t1->rowheight*1.5
-                                        || textrow->rowheight*1.5 < t1->rowheight))))
+                                        || textrow->rowheight*1.5 < t1->rowheight)))
+                  && ((!ragged_right && geom_short_ratio > 0.30)
+                       || (ragged_right && geom_short_ratio > 0.18)))
                 mlp->short_line[i-mlp->i1] = 1;
             }
         if (!ragged_right)
@@ -3510,7 +3643,8 @@ static void textrow_mark_source(TEXTROW *textrow,BMPREGION *region,MASTERINFO *m
 */
 static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *k2settings,
                                            MASTERINFO *masterinfo,int justflags,int line_spacing,
-                                           int mean_row_gap,int marking_flags,int pi)
+                                           int mean_row_gap,int marking_flags,int pi,
+                                           int *bullet_indent,int *bullet_text_start)
 
     {
     int nc,i,i0,gappix;
@@ -3518,7 +3652,7 @@ static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *
     WRAPBMP *wrapbmp;
     TEXTWORDS *textwords;
     TEXTWORD *textword;
-    int n;
+    int n,is_bullet;
 
     if (region->textrows.n>0)
         {
@@ -3543,7 +3677,40 @@ static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *
     textwords=&newregion->textrows;
     textword=textwords->textrow;
     n=textwords->n;
-    if (pi && n>0)
+    is_bullet=0;
+    if (k2settings->src_left_to_right && n>1 && newregion->bbox.lcheight>0)
+        {
+        BMPREGION marker;
+        int marker_width,marker_height,letter_height;
+
+        bmpregion_init(&marker);
+        bmpregion_copy(&marker,newregion,0);
+        marker.c1=textword[0].c1;
+        marker.c2=textword[0].c2;
+        bmpregion_trim_margins(&marker,k2settings,0xc);
+        marker_width=marker.c2-marker.c1+1;
+        marker_height=marker.r2-marker.r1+1;
+        letter_height=newregion->bbox.lcheight;
+        if (marker_width >= letter_height*0.18
+                && marker_width <= letter_height*0.8
+                && marker_height >= letter_height*0.18
+                && marker_height <= letter_height*0.8
+                && marker_width >= marker_height*0.65
+                && marker_width <= marker_height*1.55
+                && marker.r2 < region->bbox.rowbase-letter_height*0.1
+                && textword[1].c1-textword[0].c2 > letter_height*0.3)
+            {
+            wrapbmp_flush(masterinfo,k2settings,0);
+            is_bullet=1;
+            *bullet_indent=textword[1].c1-textword[0].c1;
+            *bullet_text_start=textword[1].c1;
+            }
+        bmpregion_free(&marker);
+        }
+    if (!is_bullet && (n==0 || !k2settings->src_left_to_right
+            || abs(textword[0].c1-*bullet_text_start)>newregion->bbox.lcheight*0.8))
+        *bullet_indent=0;
+    if (pi && n>0 && *bullet_indent==0)
         {
         if (k2settings->src_left_to_right)
             textword[0].c1=region->c1;
@@ -3605,6 +3772,8 @@ k2printf("    textword[%d] = %d - %d\n",i,textword[i].c1,textword[i].c2);
             i2=k2settings->src_left_to_right ? i : n-1-i0;
             rw=(textword[i2].c2-textword[i1].c1+1);
             remaining_width_pixels = wrapbmp_remaining(wrapbmp,k2settings);
+            if (wrapbmp_width(wrapbmp)==0 && !(is_bullet && i0==0))
+                remaining_width_pixels -= *bullet_indent;
             toolong = (rw+wordgap > remaining_width_pixels);
 #if (WILLUSDEBUGX & 4)
 k2printf("    i1=%d, i2=%d, rw=%d, rw+gap=%d, remainder=%d, toolong=%d\n",i1,i2,rw,rw+wordgap,remaining_width_pixels,toolong);
@@ -3663,6 +3832,8 @@ printf("wrapregion lcheight=%2d (source lch=%2d)\n",reg.bbox.lcheight,region->bb
         reg.bbox.rowbase = region->bbox.rowbase;
         reg.bbox.gap = mean_row_gap;
         /* Add it to the existing line queue */
+        if (wrapbmp_width(wrapbmp)==0)
+            wrapbmp->line_indent=(is_bullet && i0==0) ? 0 : *bullet_indent;
         wrapbmp_add(wrapbmp,&reg,k2settings,masterinfo,gappix,justflags);
         bmpregion_free(&reg);
         if (toolong)

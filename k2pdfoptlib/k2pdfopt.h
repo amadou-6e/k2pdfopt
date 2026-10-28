@@ -107,7 +107,7 @@
 #endif
 */
 
-#if (defined(HAVE_MUPDF) || defined(HAVE_GOCR_LIB) || defined(HAVE_TESSERACT_LIB) || defined(HAVE_DJVU_LIB) || defined(HAVE_OCR_LIB))
+#if (defined(HAVE_MUPDF) || defined(HAVE_MUPDF_LIB) || defined(HAVE_GOCR_LIB) || defined(HAVE_TESSERACT_LIB) || defined(HAVE_DJVU_LIB) || defined(HAVE_OCR_LIB))
 #if (!defined(HAVE_OCR_LIB))
 #define HAVE_OCR_LIB
 #endif
@@ -258,6 +258,7 @@ typedef struct
     double gtw_in; // detecting gap between words
     char show_usage[32];
     int src_left_to_right;
+    int src_vertical_margin_text;
     int src_whitethresh;
     char dst_fgcolor[MAXFILENAMELEN];
     char dst_fgtype; /* 0=none, 1=gray, 2=color, 3=bitmap */
@@ -649,6 +650,7 @@ typedef struct
     int maxgap;
     int height_extended;
     int just_flushed_internal;
+    int line_indent;
     int mandatory_region_gap; /* Copies from masterinfo at wrapbmp_add, reset at wrapbmp_flush */
     double page_region_gap_in;  /* Copies from masterinfo like mandatory_region_gap */
     TEXTROW textrow;  /* Keep text line statistics */
