@@ -3566,6 +3566,28 @@ static void bmpregion_one_row_wrap_and_add(BMPREGION *region,K2PDFOPT_SETTINGS *
     textwords=&newregion->textrows;
     textword=textwords->textrow;
     n=textwords->n;
+    if (k2settings->src_left_to_right && n>1 && newregion->bbox.lcheight>0)
+        {
+        BMPREGION marker;
+        int marker_width,marker_height,letter_height;
+
+        bmpregion_init(&marker);
+        bmpregion_copy(&marker,newregion,0);
+        marker.c1=textword[0].c1;
+        marker.c2=textword[0].c2;
+        bmpregion_trim_margins(&marker,k2settings,0xc);
+        marker_width=marker.c2-marker.c1+1;
+        marker_height=marker.r2-marker.r1+1;
+        letter_height=newregion->bbox.lcheight;
+        if (marker_width >= letter_height*0.18
+                && marker_width <= letter_height*0.8
+                && marker_height >= letter_height*0.18
+                && marker_height <= letter_height*0.8
+                && marker.r2 < region->bbox.rowbase-letter_height*0.1
+                && textword[1].c1-textword[0].c2 > letter_height*0.3)
+            wrapbmp_flush(masterinfo,k2settings,0);
+        bmpregion_free(&marker);
+        }
     if (pi && n>0)
         {
         if (k2settings->src_left_to_right)
