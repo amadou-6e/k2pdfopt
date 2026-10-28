@@ -2934,7 +2934,7 @@ printf("    Adding it atomically...\n");
                 bmpregion_one_row_wrap_and_add(newregion,k2settings,masterinfo,
                                            justflags,line_spacing,(int)(mlp->mean_row_gap+.5),
                                            marking_flags,mlp->indented[i-mlp->i1]);
-            if (centered || (short_now && indent_now))
+            if (centered || mlp->short_line[i-mlp->i1])
 {
 #ifdef WILLUSDEBUG
 k2printf("wrapflush5\n");
